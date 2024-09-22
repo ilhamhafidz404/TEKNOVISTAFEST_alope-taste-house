@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { ChevronRight } from "../icons/chevron";
+import { ChevronRight } from "../../components/icons/chevron";
 
 export default function BenefitCard({
   title,

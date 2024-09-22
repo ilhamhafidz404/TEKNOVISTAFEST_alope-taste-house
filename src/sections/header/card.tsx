@@ -1,4 +1,4 @@
-import StarIcon from "../icons/star";
+import StarIcon from "../../components/icons/star";
 
 export default function HeaderCard({
   position,
