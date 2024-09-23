@@ -17,17 +17,17 @@ export default function NavbarLinks() {
         </li>
         <li>
           <a href="" className={`${baseClass} ${addedHoverClass}`}>
-            Category
+            Gallery
           </a>
         </li>
         <li>
           <a href="" className={`${baseClass} ${addedHoverClass}`}>
-            Service
+            Menu
           </a>
         </li>
         <li>
           <a href="" className={`${baseClass} ${addedHoverClass}`}>
-            About Us
+            Chef
           </a>
         </li>
       </ul>

@@ -3,6 +3,7 @@ import Header from "./sections/header";
 import Navbar from "./components/navbar";
 import Restaurant from "./sections/restaurant";
 import Chef from "./sections/chef";
+import Footer from "./components/footer";
 
 export default function App() {
   return (
@@ -14,16 +15,8 @@ export default function App() {
         <Restaurant />
         <Chef />
       </main>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
+      <Footer />
     </>
   );
 }
