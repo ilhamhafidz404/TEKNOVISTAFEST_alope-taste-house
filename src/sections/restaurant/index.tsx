@@ -1,11 +1,19 @@
+import { useState } from "react";
+
+// global components
 import { Subtitle, Title } from "../../components/text";
+import Button from "../../components/button";
+
+// components
 import RestaurantCard from "./card";
+import TopRestaurant from "./top";
+
+// data
 import restaurants from "./../../data/restaurants.json";
 import cities from "./../../data/cities.json";
-import { useState } from "react";
+
+// icon
 import MapIcon from "../../components/icons/map";
-import TopRestaurant from "./top";
-import Button from "../../components/button";
 
 export default function Restaurant() {
   const [filterLocation, setFilterLocation] = useState("kuningan");
