@@ -29,7 +29,7 @@ export default function NavbarAction() {
           </span>
         )}
       </div>
-      <button className="px-5 py-3 rounded-md text-indigo-500 bg-indigo-100 hover:bg-indigo-200 hover:text-indigo-600 font-medium">
+      <button className="px-5 py-3 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium">
         Login
       </button>
     </div>

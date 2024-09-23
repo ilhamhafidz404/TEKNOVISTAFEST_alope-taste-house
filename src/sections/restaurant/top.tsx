@@ -8,7 +8,7 @@ export default function TopRestaurant() {
         <div>
           <Subtitle text="Top 3 Featured Restaurant" />
           <Title text="Most Popular Restaurants" />
-          <p className="text-gray-700 text-sm mt-5 mb-5">
+          <p className="text-gray-300 text-sm mt-5 mb-5">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
             quae tempore eaque maxime repellat. Laboriosam, non sit facilis, ut
             ipsum cum, quas illo repudiandae minima alias aspernatur delectus

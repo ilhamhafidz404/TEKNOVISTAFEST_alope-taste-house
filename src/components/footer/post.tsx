@@ -1,7 +1,7 @@
 export default function FooterInstaPost() {
   return (
     <div>
-      <p className="font-semibold mb-2">Follow us on Instagram</p>
+      <p className="font-semibold mb-2 text-gray-100">Follow us on Instagram</p>
       <div className="grid grid-cols-3 gap-3">
         <div className="relative rounded-md cursor-pointer overflow-hidden group after:content-[''] hover:after:bg-black/20 after:absolute after:inset-0 h-[100px]">
           <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">

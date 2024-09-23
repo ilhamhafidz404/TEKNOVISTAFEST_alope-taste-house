@@ -11,15 +11,17 @@ function ChefCard({ chef, active }: { chef: Chef; active: string }) {
   return (
     <div
       className={`flex items-center justify-between p-5 rounded-md mb-3 ${
-        active == chef.name && "bg-white shadow"
+        active == chef.name && "bg-[#191f25] shadow"
       }`}
     >
       <div>
-        <p className="text-gray-500 text-sm font-medium uppercase">
+        <p className="text-gray-400 text-sm font-medium uppercase">
           {chef.specialist}
         </p>
-        <h6 className="text-xl font-semibold mb-2">{chef.name}</h6>
-        <div className="flex items-center gap-2 text-gray-700">
+        <h6 className="text-xl font-semibold mb-2 text-gray-100">
+          {chef.name}
+        </h6>
+        <div className="flex items-center gap-2 text-gray-300">
           <MapIcon myClass="size-4 text-gray-700" />
           <p>{chef.location}</p>
         </div>
@@ -27,7 +29,7 @@ function ChefCard({ chef, active }: { chef: Chef; active: string }) {
       <div>
         <a
           href=""
-          className="flex items-center gap-2 text-indigo-500 text-sm font-medium"
+          className="flex items-center gap-2 text-[#bc8b57] text-sm font-medium"
         >
           See Profile
           <ChevronRight myClass="size-4" />
@@ -40,13 +42,13 @@ function ChefCard({ chef, active }: { chef: Chef; active: string }) {
 function ChefExperienceCard({ experience }: ChefExperienceCardProps) {
   return (
     <div
-      className={`bg-white py-7 px-10 rounded-lg shadow text-center absolute top-20 -right-10`}
+      className={`bg-[#191f25] py-7 px-10 rounded-lg shadow text-center absolute top-20 -right-10`}
     >
-      <div className="mx-auto w-[60px] h-[60px] rounded-full bg-indigo-500 flex items-center justify-center">
+      <div className="mx-auto w-[60px] h-[60px] rounded-full bg-[#bc8b57] flex items-center justify-center">
         <ShieldIcon myClass="size-7 text-white" />
       </div>
-      <p className="mt-3 font-bold text-xl text-gray-800">{experience} Years</p>
-      <p className="text-gray-700 text-sm">Experience</p>
+      <p className="mt-3 font-bold text-xl text-gray-100">{experience} Years</p>
+      <p className="text-gray-300 text-sm">Experience</p>
     </div>
   );
 }
@@ -54,7 +56,7 @@ function ChefExperienceCard({ experience }: ChefExperienceCardProps) {
 function ChefLocationCard({ location }: ChefLocationCardProps) {
   return (
     <div
-      className={`bg-white p-3 rounded-lg gap-4 items-center shadow absolute flex bottom-20 -left-10`}
+      className={`bg-[#191f25] p-3 rounded-lg gap-4 items-center shadow absolute flex bottom-20 -left-10`}
     >
       <div>
         <img
@@ -64,11 +66,13 @@ function ChefLocationCard({ location }: ChefLocationCardProps) {
         />
       </div>
       <div className="mr-10">
-        <small>Chef at Restaurant</small>
-        <p className="text-xl font-semibold -mt-1 mb-5">{location}</p>
+        <small className="text-gray-300">Chef at Restaurant</small>
+        <p className="text-xl font-semibold -mt-1 mb-5 text-gray-100">
+          {location}
+        </p>
         <a
           href=""
-          className="text-indigo-500 text-sm font-medium inline-flex items-center gap-3"
+          className="text-[#bc8b57] text-sm font-medium inline-flex items-center gap-3"
         >
           View Detail
           <ChevronRight myClass="size-3" />
