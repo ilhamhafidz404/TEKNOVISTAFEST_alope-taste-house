@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Burger",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "/menu/burger.jpg"
+  },
+  {
+    "name": "Pizza",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "/menu/pizza.jpg"
+  },
+  {
+    "name": "Hotdog",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "/menu/hotdog.jpg"
+  },
+  {
+    "name": "BBQ",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "/menu/bbq.jpg"
+  },
+  {
+    "name": "Beef",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "image": "/menu/beef.jpg"
+  }
+]

@@ -35,6 +35,7 @@ export default function Chef() {
         <div className="mt-10">
           {chefs.map((chef, index) => (
             <div
+              key={index}
               onMouseEnter={() =>
                 setActiveChef({
                   name: chef.name,
@@ -44,7 +45,7 @@ export default function Chef() {
                 })
               }
             >
-              <ChefCard key={index} chef={chef} active={activeChef.name} />
+              <ChefCard chef={chef} active={activeChef.name} />
             </div>
           ))}
         </div>

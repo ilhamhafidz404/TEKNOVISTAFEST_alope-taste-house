@@ -39,8 +39,8 @@ export default function Restaurant() {
                 setFilterLocation(e.target.value);
               }}
             >
-              {cities.map((city) => (
-                <option className="bg-[#191f25]" value={city.value}>
+              {cities.map((city, index) => (
+                <option key={index} className="bg-[#191f25]" value={city.value}>
                   {city.placeholder}
                 </option>
               ))}

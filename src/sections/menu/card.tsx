@@ -1,0 +1,15 @@
+import { Menu } from "../../models/Menu";
+
+export default function MenuCard({ menu }: { menu: Menu }) {
+  return (
+    <div className="mx-5 pb-10">
+      <img
+        src={menu.image}
+        alt=""
+        className="rounded-md h-[250px] w-full object-cover"
+      />
+      <h5 className="text-2xl font-semibold text-gray-100 mt-5">{menu.name}</h5>
+      <p className="text-gray-300">{menu.description}</p>
+    </div>
+  );
+}
