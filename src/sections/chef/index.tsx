@@ -18,7 +18,7 @@ export default function Chef() {
     at: "Jakarta Resto",
   });
   return (
-    <section className="grid grid-cols-2 gap-20 mt-20 items-center">
+    <section className="grid md:grid-cols-2 lg:gap-20 gap-10 mt-20 items-center">
       <div className="h-[800px] relative">
         <img
           src={activeChef.img}

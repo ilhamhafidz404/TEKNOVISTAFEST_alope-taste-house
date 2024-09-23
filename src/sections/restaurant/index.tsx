@@ -21,32 +21,34 @@ export default function Restaurant() {
   return (
     <section className="mt-20">
       <TopRestaurant />
-      <div className="flex items-center justify-between">
+      <div className="md:flex items-center justify-between">
         <div>
           <Subtitle text="Restaurant Based By City" />
           <Title text="Restaurant Near You" />
         </div>
-        <div>
+        <div className="lg:mt-0 mt-5">
           <label
             htmlFor="citiesSelection"
-            className="flex items-center bg-gray-200 py-3 px-5 rounded-lg gap-2"
+            className="flex items-center bg-[#191f25] py-3 px-5 rounded-lg gap-2"
           >
-            <MapIcon myClass="size-5 text-gray-700" />
+            <MapIcon myClass="size-5 text-gray-400" />
             <select
               id="citiesSelection"
-              className="bg-transparent"
+              className="bg-transparent text-gray-100"
               onChange={(e) => {
                 setFilterLocation(e.target.value);
               }}
             >
               {cities.map((city) => (
-                <option value={city.value}>{city.placeholder}</option>
+                <option className="bg-[#191f25]" value={city.value}>
+                  {city.placeholder}
+                </option>
               ))}
             </select>
           </label>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-10 mt-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-5">
         {restaurants
           .filter(
             (restaurant) => restaurant.location.toLowerCase() === filterLocation

@@ -8,7 +8,7 @@ export default function NavbarLinks() {
   const addedActiveClass = "after:left-0 after:right-0";
 
   return (
-    <div>
+    <div className="hidden md:block">
       <ul className="flex gap-5 font-medium">
         <li>
           <a href="" className={`${baseClass} ${addedActiveClass}`}>

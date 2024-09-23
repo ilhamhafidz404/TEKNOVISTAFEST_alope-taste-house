@@ -10,7 +10,7 @@ export default function App() {
     <>
       <Navbar />
       <Header />
-      <main className="px-20">
+      <main className="lg:px-20 md:px-10 px-5">
         <Benefit />
         <Restaurant />
         <Chef />

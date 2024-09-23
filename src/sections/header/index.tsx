@@ -1,15 +1,15 @@
 export default function Header() {
   return (
     <>
-      <header className="pl-20 h-screen bg-[url(/header.jpg)] bg-cover relative after:absolute after:inset-0 after:bg-gradient-to-t from-[#0e1317] to to-[#0e1317]/50 flex items-center justify-center">
-        <div className="w-1/2 text-center z-10 relative">
-          <h1 className="text-[#bc8b57] font-bold text-2xl">
+      <header className="h-screen bg-[url(/header.jpg)] bg-cover relative after:absolute after:inset-0 after:bg-gradient-to-t from-[#0e1317] to to-[#0e1317]/50 flex items-center justify-center">
+        <div className="w-10/12 lg:w-1/2 text-center z-10 relative">
+          <h1 className="text-[#bc8b57] font-bold text-xl md:text-2xl">
             Our Food Paradise Welcomes You
           </h1>
-          <h2 className="text-white text-6xl font-bold mt-5">
+          <h2 className="text-white text-4xl md:text-6xl font-bold mt-5">
             Where Food Meets Soul
           </h2>
-          <p className="text-gray-200 mt-5">
+          <p className="text-gray-200 mt-5 text-sm md:text-base">
             We use the best regionally grown vegetables and foraged ingredients
             on their menu, drawing inspiration from the area. A creative wine
             list, refreshing cocktails, and an amazing assortment of gins,

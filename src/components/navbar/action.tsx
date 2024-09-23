@@ -4,8 +4,8 @@ export default function NavbarAction() {
   const [search, setSearch] = useState<string>("");
 
   return (
-    <div className="flex gap-2 justify-end">
-      <div className="relative w-2/3">
+    <div className="hidden md:flex gap-2 justify-end">
+      <div className="relative w-2/3 lg:block hidden">
         <input
           type="text"
           className="bg-white py-3 px-5 shadow-sm rounded-md w-full"

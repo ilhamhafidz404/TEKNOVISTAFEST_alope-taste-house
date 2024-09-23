@@ -9,7 +9,7 @@ export default function Benefit() {
         <Subtitle text="SPECIAL BENEFITS FOR YOU" />
         <Title text="Why Sould You Choose Us?" />
       </div>
-      <div className="grid grid-cols-4 gap-10 mt-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mt-10">
         <BenefitCard
           title="Extra Discounts"
           description="Get your special discount by using our reservation"

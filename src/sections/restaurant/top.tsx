@@ -4,7 +4,7 @@ import { Subtitle, Title } from "../../components/text";
 export default function TopRestaurant() {
   return (
     <>
-      <div className="grid grid-cols-3 mb-20">
+      <div className="grid md:grid-cols-3 mb-20">
         <div>
           <Subtitle text="Top 3 Featured Restaurant" />
           <Title text="Most Popular Restaurants" />
