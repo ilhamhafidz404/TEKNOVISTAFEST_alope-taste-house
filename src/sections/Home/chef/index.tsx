@@ -12,10 +12,11 @@ import chefs from "../../../data/chefs.json";
 
 export default function Chef() {
   const [activeChef, setActiveChef] = useState({
-    name: "Arnold Poernomo",
-    img: "https://images.unsplash.com/photo-1654922207993-2952fec328ae?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Andi Pratama",
+    img: "andi.jpg",
     experience: 10,
-    at: "Jakarta Resto",
+    at: "ALOPE Garden Bistro",
+    atImg: "1.jpg",
   });
   return (
     <section
@@ -24,13 +25,13 @@ export default function Chef() {
     >
       <div className="h-[800px] relative">
         <img
-          src={activeChef.img}
+          src={`/chefs/${activeChef.img}`}
           alt="Chef"
           className="rounded-md h-full w-full object-cover"
         />
 
         <ChefExperienceCard experience={activeChef.experience} />
-        <ChefLocationCard location={activeChef.at} />
+        <ChefLocationCard location={activeChef.at} img={activeChef.atImg} />
       </div>
       <div>
         <Subtitle text="TOP 4 EXPERT CHEF" />
@@ -45,6 +46,7 @@ export default function Chef() {
                   img: chef.photo,
                   experience: chef.experience,
                   at: chef.at,
+                  atImg: chef.atImg,
                 })
               }
             >

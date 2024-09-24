@@ -1,7 +1,9 @@
 [
   {
-    "name": "Kuningan Restaurant",
-    "img": "",
+    "name": "ALOPE Grill & Smokehouse",
+    "description": "Spesialisasi di menu panggangan dan daging asap.",
+    "img": "4.jpg",
+    "alt": "https://unsplash.com/photos/people-inside-restaurant-LOLSb7m6XkU",
     "star": 5.0,
     "totalReview": 10,
     "prices": {
@@ -11,8 +13,10 @@
     "location": "kuningan"
   },
   {
-    "name": "Jagara Restaurant",
-    "img": "",
+    "name": "ALOPE Ocean Delights",
+    "description": "Restoran yang berfokus pada seafood dan hidangan laut segar.",
+    "img": "5.jpg",
+    "alt": "https://unsplash.com/photos/clear-glass-cup-on-brown-wooden-table-sQopSb2K0CU",
     "star": 5.0,
     "totalReview": 10,
     "prices": {
@@ -22,8 +26,10 @@
     "location": "kuningan"
   },
   {
-    "name": "Darma Restaurant",
-    "img": "",
+    "name": "ALOPE Heritage Flavors",
+    "description": "Menampilkan menu masakan tradisional dengan resep warisan.",
+    "img": "6.jpg",
+    "alt": "https://unsplash.com/photos/tables-and-chairs-inside-building-H7xTpvBjJS4",
     "star": 5.0,
     "totalReview": 10,
     "prices": {
@@ -33,8 +39,10 @@
     "location": "kuningan"
   },
   {
-    "name": "Jakarta Restaurant",
-    "img": "",
+    "name": "ALOPE Garden Bistro",
+    "description": "Restoran yang menyajikan makanan sehat dan organik dalam suasana taman.",
+    "img": "1.jpg",
+    "alt": "https://unsplash.com/photos/photo-of-pub-set-in-room-during-daytime-poI7DelFiVA",
     "star": 5.0,
     "totalReview": 10,
     "prices": {
@@ -44,8 +52,10 @@
     "location": "jakarta"
   },
   {
-    "name": "Gading Restaurant",
-    "img": "",
+    "name": "ALOPE Fiesta",
+    "description": "Tempat dengan suasana meriah dan makanan untuk berbagi, cocok untuk acara keluarga atau teman.",
+    "img": "2.jpg",
+    "alt": "https://unsplash.com/photos/two-person-sitting-on-bar-stool-chair-in-front-of-bar-front-desk-8x_fFNrmeDk",
     "star": 5.0,
     "totalReview": 10,
     "prices": {
@@ -55,8 +65,10 @@
     "location": "jakarta"
   },
   {
-    "name": "PIK Restaurant",
-    "img": "",
+    "name": "ALOPE Grill & Smokehouse Serpong",
+    "description": "Spesialisasi di menu panggangan dan daging asap cabang Serpong.",
+    "img": "3.jpg",
+    "alt": "https://unsplash.com/photos/people-sitting-inside-cafe-klXhDG8Roj4",
     "star": 5.0,
     "totalReview": 10,
     "prices": {

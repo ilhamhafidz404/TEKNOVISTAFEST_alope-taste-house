@@ -13,6 +13,7 @@ type ChefExperienceCardProps = {
 
 type ChefLocationCardProps = {
   location: string;
+  img: string;
 };
 
 export type { Chef, ChefExperienceCardProps, ChefLocationCardProps };

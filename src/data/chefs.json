@@ -1,34 +1,42 @@
 [
   {
-    "name": "Renatta Moeloek",
-    "specialist": "PIZZA",
+    "name": "Andi Pratama",
+    "specialist": "Western Food",
     "location": "Jakarta",
-    "photo": "https://images.unsplash.com/photo-1709837167719-1ff90bdbbac5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "photo": "andi.jpg",
+    "alt": "https://unsplash.com/photos/chef-cooking-roti-AXDTTuh-0UI",
     "experience": 12,
-    "at": "Jakarta Resto"
+    "at": "ALOPE Garden Bistro",
+    "atImg": "1.jpg"
   },
   {
-    "name": "Arnold Poernomo",
-    "specialist": "PIZZA",
+    "name": "Budi Santoso",
+    "specialist": "Nusantara Food",
     "location": "Kuningan",
-    "photo": "https://images.unsplash.com/photo-1654922207993-2952fec328ae?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "photo": "budi.jpg",
+    "alt": "https://unsplash.com/photos/man-chopping-garlic-gloves-5JeTin55H9U",
     "experience": 16,
-    "at": "Kuningan Resto"
+    "at": "ALOPE Heritage Flavors",
+    "atImg": "6.jpg"
   },
   {
-    "name": "Juna Rorimpandey",
-    "specialist": "PIZZA",
+    "name": "Riko Haryanto",
+    "specialist": "Mie & Ramen",
     "location": "Surabaya",
-    "photo": "https://images.unsplash.com/photo-1669707569583-8d4c8051130a?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "photo": "riko.jpg",
+    "alt": "https://unsplash.com/photos/chef-making-pasta-inside-kitchen-m6p4lqWxfy0",
     "experience": 10,
-    "at": "PIK Resto"
+    "at": "ALOPE Fiesta",
+    "atImg": "2.jpg"
   },
   {
-    "name": "Ilham Hafidz",
-    "specialist": "PIZZA",
+    "name": "Indah Wulandari",
+    "specialist": "Desert",
     "location": "Surabaya",
-    "photo": "https://images.unsplash.com/photo-1681269275449-9badcf74bd04?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "photo": "indah.jpg",
+    "alt": "https://unsplash.com/photos/a-woman-in-a-chefs-outfit-preparing-food-in-a-kitchen-gcHkQ07Af2Q",
     "experience": 23,
-    "at": "Jakarta Meledak"
+    "at": "ALOPE Ocean Delights",
+    "atImg": "5.jpg"
   }
 ]

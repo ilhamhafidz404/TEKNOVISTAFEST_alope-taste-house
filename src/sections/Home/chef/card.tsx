@@ -55,14 +55,14 @@ function ChefExperienceCard({ experience }: ChefExperienceCardProps) {
   );
 }
 
-function ChefLocationCard({ location }: ChefLocationCardProps) {
+function ChefLocationCard({ location, img }: ChefLocationCardProps) {
   return (
     <div
       className={`bg-[#191f25] p-3 rounded-lg gap-4 items-center shadow absolute flex bottom-0 lg:bottom-20 left-0 lg:-left-10`}
     >
       <div>
         <img
-          src="/slider/1.png"
+          src={`/restaurants/${img}`}
           alt=""
           className="w-[120px] lg:w-[150px] h-[100px] lg:h-[130px] object-cover rounded-md"
         />

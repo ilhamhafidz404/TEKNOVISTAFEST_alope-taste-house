@@ -27,8 +27,9 @@ export default function TopRestaurant() {
           } hover:md:w-[300px] hover:lg:w-[500px] transition-all duration-500 h-[400px] rounded overflow-hidden relative`}
           onMouseEnter={() => setHoveredRestaurant(1)}
         >
+          {/* https://unsplash.com/photos/photo-of-pub-set-in-room-during-daytime-poI7DelFiVA */}
           <img
-            src="/header.jpg"
+            src="/restaurants/1.jpg"
             alt=""
             className="h-full w-full object-cover"
           />
@@ -39,8 +40,12 @@ export default function TopRestaurant() {
                 <p className="text-yellow-400 font-semibold">5</p>
                 <small className="text-gray-400">(10 Review)</small>
               </div>
-              <h6 className="text-lg font-semibold text-gray-100">Jagara</h6>
-              <p className="font-medium text-gray-300">Rp 10.000 - Rp 20.000</p>
+              <h6 className="text-lg font-semibold text-gray-100">
+                ALOPE Garden Bistro
+              </h6>
+              <p className="font-medium text-gray-300 mt-3">
+                Rp 10.000 - Rp 20.000
+              </p>
               <button className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md">
                 <ChevronRight myClass="size-4 text-white" />
               </button>
@@ -54,8 +59,9 @@ export default function TopRestaurant() {
           } hover:md:w-[300px] hover:lg:w-[500px] transition-all duration-500 h-[400px] rounded overflow-hidden relative`}
           onMouseEnter={() => setHoveredRestaurant(2)}
         >
+          {/* https://unsplash.com/photos/two-person-sitting-on-bar-stool-chair-in-front-of-bar-front-desk-8x_fFNrmeDk */}
           <img
-            src="/header.jpg"
+            src="/restaurants/2.jpg"
             alt=""
             className="h-full w-full object-cover"
           />
@@ -66,8 +72,12 @@ export default function TopRestaurant() {
                 <p className="text-yellow-400 font-semibold">5</p>
                 <small className="text-gray-400">(10 Review)</small>
               </div>
-              <h6 className="text-lg font-semibold text-gray-100">Jagara</h6>
-              <p className="font-medium text-gray-300">Rp 10.000 - Rp 20.000</p>
+              <h6 className="text-lg font-semibold text-gray-100">
+                ALOPE Fiesta
+              </h6>
+              <p className="font-medium text-gray-300 mt-3">
+                Rp 10.000 - Rp 20.000
+              </p>
               <button className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md">
                 <ChevronRight myClass="size-4 text-white" />
               </button>
@@ -81,8 +91,9 @@ export default function TopRestaurant() {
           } hover:md:w-[300px] hover:lg:w-[500px] transition-all duration-500 h-[400px] rounded overflow-hidden relative`}
           onMouseEnter={() => setHoveredRestaurant(3)}
         >
+          {/* https://unsplash.com/photos/people-sitting-inside-cafe-klXhDG8Roj4 */}
           <img
-            src="/header.jpg"
+            src="/restaurants/3.jpg"
             alt=""
             className="h-full w-full object-cover"
           />
@@ -93,8 +104,12 @@ export default function TopRestaurant() {
                 <p className="text-yellow-400 font-semibold">5</p>
                 <small className="text-gray-400">(10 Review)</small>
               </div>
-              <h6 className="text-lg font-semibold text-gray-100">Jagara</h6>
-              <p className="font-medium text-gray-300">Rp 10.000 - Rp 20.000</p>
+              <h6 className="text-lg font-semibold text-gray-100">
+                ALOPE Grill & Smokehouse Serpong
+              </h6>
+              <p className="font-medium text-gray-300 mt-3">
+                Rp 10.000 - Rp 20.000
+              </p>
               <button className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md">
                 <ChevronRight myClass="size-4 text-white" />
               </button>
