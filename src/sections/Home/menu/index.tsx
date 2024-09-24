@@ -7,7 +7,7 @@ import menus from "../../../data/menus.json";
 
 export default function MenuSection() {
   return (
-    <section className="mt-20">
+    <section id="menu" className="mt-20 scroll-mt-20">
       <div className="mb-10 md:flex items-center justify-between">
         <div>
           <Subtitle text="Our Delicious Menu" />

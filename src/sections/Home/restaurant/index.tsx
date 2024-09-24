@@ -19,7 +19,7 @@ export default function Restaurant() {
   const [filterLocation, setFilterLocation] = useState("kuningan");
 
   return (
-    <section className="mt-20">
+    <section id="restaurant" className="mt-20 scroll-mt-20">
       <TopRestaurant />
       <div className="md:flex items-center justify-between">
         <div>

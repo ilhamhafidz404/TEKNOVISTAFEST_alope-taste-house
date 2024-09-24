@@ -1,5 +1,7 @@
 import StoreIcon from "../icons/store";
 import FooterInstaPost from "./post";
+import FooterSectionLinks from "./sectionLinks";
+import FooterPageLinks from "./pageLinks";
 
 export default function Footer() {
   return (
@@ -18,56 +20,8 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex gap-28">
-          <div>
-            <p className="font-semibold mb-2 text-gray-100">Pages</p>
-            <ul>
-              <li className="mb-1">
-                <a href="" className="text-gray-300 hover:text-[#bc8b57]">
-                  Home
-                </a>
-              </li>
-              <li className="mb-1">
-                <a href="" className="text-gray-300 hover:text-[#bc8b57]">
-                  Gallery
-                </a>
-              </li>
-              <li className="mb-1">
-                <a href="" className="text-gray-300 hover:text-[#bc8b57]">
-                  Menu
-                </a>
-              </li>
-              <li className="mb-1">
-                <a href="" className="text-gray-300 hover:text-[#bc8b57]">
-                  Chef
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p className="font-semibold mb-2 text-gray-100">Section</p>
-            <ul>
-              <li className="mb-1">
-                <a href="" className="text-gray-300 hover:text-[#bc8b57]">
-                  Header
-                </a>
-              </li>
-              <li className="mb-1">
-                <a href="" className="text-gray-300 hover:text-[#bc8b57]">
-                  Benefits
-                </a>
-              </li>
-              <li className="mb-1">
-                <a href="" className="text-gray-300 hover:text-[#bc8b57]">
-                  Restaurants
-                </a>
-              </li>
-              <li className="mb-1">
-                <a href="" className="text-gray-300 hover:text-[#bc8b57]">
-                  Chefs
-                </a>
-              </li>
-            </ul>
-          </div>
+          <FooterPageLinks />
+          <FooterSectionLinks />
         </div>
         <FooterInstaPost />
       </div>

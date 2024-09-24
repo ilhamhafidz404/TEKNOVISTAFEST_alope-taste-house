@@ -4,14 +4,16 @@ import MenuListItem from "./item";
 export default function MenuCard({
   title,
   img,
+  id,
   index,
 }: {
   title: string;
   img: string;
+  id: string;
   index: number;
 }) {
   return (
-    <section className={`px-20 ${index != 2 && "mt-28"}`}>
+    <section id={id} className={`px-20 scroll-mt-20 ${index != 2 && "mt-28"}`}>
       <div className="text-center">
         <Subtitle text="Our Menu" />
         <Title text={title} />

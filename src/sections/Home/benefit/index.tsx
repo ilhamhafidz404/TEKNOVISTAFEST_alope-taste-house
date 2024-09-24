@@ -4,7 +4,7 @@ import BenefitCard from "./card";
 
 export default function Benefit() {
   return (
-    <section className="mt-20">
+    <section id="benefit" className="mt-20 scroll-mt-20">
       <div className="text-center">
         <Subtitle text="SPECIAL BENEFITS FOR YOU" />
         <Title text="Why Sould You Choose Us?" />
