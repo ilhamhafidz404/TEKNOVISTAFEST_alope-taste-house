@@ -1,12 +1,13 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import ReactDOM from "react-dom";
 import App from "./App.tsx";
 import "./index.css";
 
 import "glider-js/glider.min.css";
+import { BrowserRouter } from "react-router-dom";
 
-createRoot(document.getElementById("root")!).render(
-  <StrictMode>
+ReactDOM.render(
+  <BrowserRouter>
     <App />
-  </StrictMode>
+  </BrowserRouter>,
+  document.getElementById("root")
 );

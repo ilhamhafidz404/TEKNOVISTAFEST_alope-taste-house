@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function NavbarLinks() {
   const baseClass =
     "after:content-[''] after:bottom-0 after:h-[5px] after:bg-[#bc8b57] after:absolute after:rounded-full relative pb-2";
@@ -11,24 +13,24 @@ export default function NavbarLinks() {
     <div className="hidden md:block">
       <ul className="flex gap-5 font-medium">
         <li>
-          <a href="" className={`${baseClass} ${addedActiveClass}`}>
+          <NavLink to="/" className={`${baseClass} ${addedActiveClass}`}>
             Home
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="" className={`${baseClass} ${addedHoverClass}`}>
+          <NavLink to="/about" className={`${baseClass} ${addedHoverClass}`}>
             Gallery
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="" className={`${baseClass} ${addedHoverClass}`}>
+          <NavLink to="" className={`${baseClass} ${addedHoverClass}`}>
             Menu
-          </a>
+          </NavLink>
         </li>
         <li>
-          <a href="" className={`${baseClass} ${addedHoverClass}`}>
+          <NavLink to="" className={`${baseClass} ${addedHoverClass}`}>
             Chef
-          </a>
+          </NavLink>
         </li>
       </ul>
     </div>

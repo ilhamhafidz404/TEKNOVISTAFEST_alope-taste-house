@@ -1,22 +1,22 @@
-import Benefit from "./sections/benefit";
-import Header from "./sections/header";
+import { Route, Routes } from "react-router-dom";
+
+// component
 import Navbar from "./components/navbar";
-import Restaurant from "./sections/restaurant";
-import Chef from "./sections/chef";
 import Footer from "./components/footer";
-import MenuSection from "./sections/menu";
+
+// view
+import HomeView from "./views/Home";
 
 export default function App() {
   return (
     <>
       <Navbar />
-      <Header />
-      <main className="lg:px-20 md:px-10 px-5">
-        <Benefit />
-        <Restaurant />
-        <MenuSection />
-        <Chef />
-      </main>
+
+      <Routes>
+        <Route path="/" element={<HomeView />} />
+        <Route path="/about" element={<p>About</p>} />
+        <Route path="/contact" element={<p>contact</p>} />
+      </Routes>
 
       <Footer />
     </>
