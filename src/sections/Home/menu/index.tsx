@@ -1,9 +1,9 @@
 import GliderComponent from "react-glider";
 import MenuCard from "./card";
-import { Subtitle, Title } from "../../components/text";
-import Button from "../../components/button";
-import { ChevronLeft, ChevronRight } from "../../components/icons/chevron";
-import menus from "../../data/menus.json";
+import { Subtitle, Title } from "../../../components/text";
+import Button from "../../../components/button";
+import { ChevronLeft, ChevronRight } from "../../../components/icons/chevron";
+import menus from "../../../data/menus.json";
 
 export default function MenuSection() {
   return (

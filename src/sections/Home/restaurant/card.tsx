@@ -1,7 +1,7 @@
-import { ChevronRight } from "../../components/icons/chevron";
-import StarIcon from "../../components/icons/star";
-import { Restaurant } from "../../models/Resturant";
-import formatToRupiah from "../../tools/formatRupiah";
+import { ChevronRight } from "../../../components/icons/chevron";
+import StarIcon from "../../../components/icons/star";
+import { Restaurant } from "../../../models/Resturant";
+import formatToRupiah from "../../../tools/formatRupiah";
 
 export default function RestaurantCard(restaurant: Restaurant) {
   return (

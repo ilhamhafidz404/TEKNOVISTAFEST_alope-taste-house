@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Button from "../../components/button";
-import { Subtitle, Title } from "../../components/text";
-import StarIcon from "../../components/icons/star";
-import { ChevronRight } from "../../components/icons/chevron";
+import Button from "../../../components/button";
+import { Subtitle, Title } from "../../../components/text";
+import StarIcon from "../../../components/icons/star";
+import { ChevronRight } from "../../../components/icons/chevron";
 
 export default function TopRestaurant() {
   const [hoveredRestaurant, setHoveredRestaurant] = useState(1);

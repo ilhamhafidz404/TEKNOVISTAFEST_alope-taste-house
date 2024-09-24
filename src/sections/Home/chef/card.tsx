@@ -1,11 +1,11 @@
-import { ChevronRight } from "../../components/icons/chevron";
-import MapIcon from "../../components/icons/map";
-import ShieldIcon from "../../components/icons/shield";
+import { ChevronRight } from "../../../components/icons/chevron";
+import MapIcon from "../../../components/icons/map";
+import ShieldIcon from "../../../components/icons/shield";
 import {
   Chef,
   ChefExperienceCardProps,
   ChefLocationCardProps,
-} from "../../models/Chef";
+} from "../../../models/Chef";
 
 function ChefCard({ chef, active }: { chef: Chef; active: string }) {
   return (

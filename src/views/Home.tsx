@@ -1,10 +1,15 @@
-import Benefit from "../sections/benefit";
-import Chef from "../sections/chef";
-import Header from "../sections/header";
-import MenuSection from "../sections/menu";
-import Restaurant from "../sections/restaurant";
+import { useEffect } from "react";
+import Benefit from "../sections/Home/benefit";
+import Chef from "../sections/Home/chef";
+import Header from "../sections/Home/header";
+import MenuSection from "../sections/Home/menu";
+import Restaurant from "../sections/Home/restaurant";
 
 export default function HomeView() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Header />

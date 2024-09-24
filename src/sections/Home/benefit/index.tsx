@@ -1,5 +1,5 @@
-import MoneyIcon from "../../components/icons/money";
-import { Subtitle, Title } from "../../components/text";
+import MoneyIcon from "../../../components/icons/money";
+import { Subtitle, Title } from "../../../components/text";
 import BenefitCard from "./card";
 
 export default function Benefit() {

@@ -1,4 +1,4 @@
-import { Menu } from "../../models/Menu";
+import { Menu } from "../../../models/Menu";
 
 export default function MenuCard({ menu }: { menu: Menu }) {
   return (

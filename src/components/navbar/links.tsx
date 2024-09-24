@@ -7,28 +7,57 @@ export default function NavbarLinks() {
   const addedHoverClass =
     "hover:after:w-[5px] active:after:w-[15px] after:transition-all after:duration-500 after:left-1/2 after:-translate-x-1/2";
 
-  const addedActiveClass = "after:left-0 after:right-0";
+  const addedActiveClass =
+    "after:w-full after:left-0 after:right-0 after:transition-all after:duration-500";
 
   return (
     <div className="hidden md:block">
       <ul className="flex gap-5 font-medium">
         <li>
-          <NavLink to="/" className={`${baseClass} ${addedActiveClass}`}>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              `${baseClass} ${addedHoverClass} ${
+                isActive ? addedActiveClass : ""
+              }`
+            }
+          >
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" className={`${baseClass} ${addedHoverClass}`}>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              `${baseClass} ${addedHoverClass} ${
+                isActive ? addedActiveClass : ""
+              }`
+            }
+          >
             Gallery
           </NavLink>
         </li>
         <li>
-          <NavLink to="" className={`${baseClass} ${addedHoverClass}`}>
+          <NavLink
+            to="/menu"
+            className={({ isActive }) =>
+              `${baseClass} ${addedHoverClass} ${
+                isActive ? addedActiveClass : ""
+              }`
+            }
+          >
             Menu
           </NavLink>
         </li>
         <li>
-          <NavLink to="" className={`${baseClass} ${addedHoverClass}`}>
+          <NavLink
+            to="/chef"
+            className={({ isActive }) =>
+              `${baseClass} ${addedHoverClass} ${
+                isActive ? addedActiveClass : ""
+              }`
+            }
+          >
             Chef
           </NavLink>
         </li>

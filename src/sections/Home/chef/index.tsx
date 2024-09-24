@@ -1,14 +1,14 @@
 import { useState } from "react";
 
 // global component
-import { Subtitle, Title } from "../../components/text";
-import Button from "../../components/button";
+import { Subtitle, Title } from "../../../components/text";
+import Button from "../../../components/button";
 
 // component
 import { ChefCard, ChefExperienceCard, ChefLocationCard } from "./card";
 
 // data
-import chefs from "./../../data/chefs.json";
+import chefs from "../../../data/chefs.json";
 
 export default function Chef() {
   const [activeChef, setActiveChef] = useState({
