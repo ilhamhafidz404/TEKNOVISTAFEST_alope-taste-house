@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import Header from "../sections/Location/header";
 import LocationMapSection from "../sections/Location/map";
 import { Subtitle, Title } from "../components/text";
-import Button from "../components/button";
 import LocationTestimoniSection from "../sections/Location/testimoni";
 
 export default function LocationView() {

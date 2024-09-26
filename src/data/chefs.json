@@ -38,5 +38,45 @@
     "experience": 23,
     "at": "ALOPE Ocean Delights",
     "atImg": "5.jpg"
+  },
+  {
+    "name": "Galih Pratomo",
+    "specialist": "Western Food",
+    "location": "Jakarta",
+    "photo": "galih.jpg",
+    "alt": "https://unsplash.com/photos/man-cooking-in-kitchen-iv6yNy7oBqQ",
+    "experience": 12,
+    "at": "ALOPE Garden Bistro",
+    "atImg": "1.jpg"
+  },
+  {
+    "name": "Putri Kartika",
+    "specialist": "Nusantara Food",
+    "location": "Kuningan",
+    "photo": "putri.jpg",
+    "alt": "https://unsplash.com/photos/woman-in-blue-dress-shirt-sitting-on-chair-SckKcAnMEiQ",
+    "experience": 16,
+    "at": "ALOPE Heritage Flavors",
+    "atImg": "6.jpg"
+  },
+  {
+    "name": "Arifin Wibowo",
+    "specialist": "Mie & Ramen",
+    "location": "Surabaya",
+    "photo": "arifin.jpg",
+    "alt": "https://unsplash.com/photos/a-man-in-a-chefs-hat-holding-a-plate-of-food-v0rcIyGZn6M",
+    "experience": 10,
+    "at": "ALOPE Fiesta",
+    "atImg": "2.jpg"
+  },
+  {
+    "name": "Agus Wirawan",
+    "specialist": "Desert",
+    "location": "Surabaya",
+    "photo": "agus.jpg",
+    "alt": "https://unsplash.com/photos/man-in-white-chef-uniform-holding-knife-slicing-meat-zcEO0P2RgI0",
+    "experience": 23,
+    "at": "ALOPE Ocean Delights",
+    "atImg": "5.jpg"
   }
 ]

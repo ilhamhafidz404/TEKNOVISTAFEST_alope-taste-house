@@ -37,7 +37,7 @@ export default function Chef() {
         <Subtitle text="TOP 4 EXPERT CHEF" />
         <Title text="Expert Chef with Fuddy" />
         <div className="mt-10">
-          {chefs.map((chef, index) => (
+          {chefs.slice(0, 4).map((chef, index) => (
             <div
               key={index}
               onMouseEnter={() =>
