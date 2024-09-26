@@ -27,14 +27,14 @@ export default function NavbarLinks() {
         </li>
         <li>
           <NavLink
-            to="/about"
+            to="/location"
             className={({ isActive }) =>
               `${baseClass} ${addedHoverClass} ${
                 isActive ? addedActiveClass : ""
               }`
             }
           >
-            Gallery
+            Location
           </NavLink>
         </li>
         <li>

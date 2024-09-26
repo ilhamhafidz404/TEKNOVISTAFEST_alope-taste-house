@@ -8,6 +8,7 @@ import Footer from "./components/footer";
 import HomeView from "./views/Home";
 import MenuView from "./views/Menu";
 import ChefView from "./views/Chef";
+import LocationView from "./views/Location";
 
 export default function App() {
   return (
@@ -18,7 +19,7 @@ export default function App() {
         <Route path="/" element={<HomeView />} />
         <Route path="/menu" element={<MenuView />} />
         <Route path="/chef" element={<ChefView />} />
-        <Route path="/contact" element={<p>contact</p>} />
+        <Route path="/location" element={<LocationView />} />
       </Routes>
 
       <Footer />
