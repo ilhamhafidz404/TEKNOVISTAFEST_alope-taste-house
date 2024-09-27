@@ -18,11 +18,11 @@ export default function LocationView() {
           <Title text={"ALOPE Taste House Restaurant"} />
         </div>
 
-        <div className="border-4 border-[#bc8b57]">
+        <div id="map" className="border-4 border-[#bc8b57] scroll-m-44">
           <LocationMapSection />
         </div>
 
-        <div className="text-center mt-20 mb-10">
+        <div id="testimonials" className="text-center mt-20 mb-10 scroll-m-20">
           <Subtitle text="Testimonials" />
           <Title text={"We’re In Our Customer’s Good Books"} />
         </div>

@@ -28,6 +28,20 @@ export default function FooterSections() {
           sectionID: "#chef",
         },
       ],
+      "/location": [
+        {
+          placeholder: "Header",
+          sectionID: "#",
+        },
+        {
+          placeholder: "Location Map",
+          sectionID: "#map",
+        },
+        {
+          placeholder: "Testimonals",
+          sectionID: "#testimonials",
+        },
+      ],
       "/menu": [
         {
           placeholder: "Header",
@@ -44,6 +58,20 @@ export default function FooterSections() {
         {
           placeholder: "Dinner Menu",
           sectionID: "#dinner",
+        },
+      ],
+      "/chef": [
+        {
+          placeholder: "Header",
+          sectionID: "#",
+        },
+        {
+          placeholder: "Chef",
+          sectionID: "#chef",
+        },
+        {
+          placeholder: "Motto",
+          sectionID: "#motto",
         },
       ],
     };

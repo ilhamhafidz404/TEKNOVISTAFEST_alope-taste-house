@@ -11,8 +11,8 @@ export default function FooterPageLinks() {
           </Link>
         </li>
         <li className="mb-1">
-          <Link to={"/"} className="text-gray-300 hover:text-[#bc8b57]">
-            Gallery
+          <Link to={"/location"} className="text-gray-300 hover:text-[#bc8b57]">
+            Location
           </Link>
         </li>
         <li className="mb-1">
@@ -21,7 +21,7 @@ export default function FooterPageLinks() {
           </Link>
         </li>
         <li className="mb-1">
-          <Link to={"/"} className="text-gray-300 hover:text-[#bc8b57]">
+          <Link to={"/chef"} className="text-gray-300 hover:text-[#bc8b57]">
             Chef
           </Link>
         </li>

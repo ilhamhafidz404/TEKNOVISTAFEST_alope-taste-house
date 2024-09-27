@@ -18,7 +18,7 @@ export default function TopRestaurant() {
           cum, quas illo repudiandae minima alias aspernatur delectus architecto
           consectetur.
         </p>
-        <Button text="View All Restaurant" />
+        <Button text="View All Restaurant" to="/location" />
       </div>
       <div className="md:col-span-2 flex gap-2 justify-end lg:mt-0 mt-5">
         <div

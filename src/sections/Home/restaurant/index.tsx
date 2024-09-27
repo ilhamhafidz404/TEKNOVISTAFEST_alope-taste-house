@@ -66,7 +66,7 @@ export default function Restaurant() {
           ))}
       </div>
       <div className="mt-10 flex justify-center">
-        <Button text="View All Restaurant" />
+        <Button text="View All Restaurant" to="/location" />
       </div>
     </section>
   );

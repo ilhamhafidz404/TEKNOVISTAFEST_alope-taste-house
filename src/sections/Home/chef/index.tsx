@@ -55,7 +55,7 @@ export default function Chef() {
           ))}
         </div>
         <div className="mt-10">
-          <Button text="View All Chef" />
+          <Button text="View All Chef" to={"/chef"} />
         </div>
       </div>
     </section>

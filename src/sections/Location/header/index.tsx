@@ -22,7 +22,7 @@ export default function Header() {
     <div className="flex justify-between items-center px-20 bg-[url('/banner.png')] h-[700px] bg-cover">
       <div className="w-[700px]">
         <Subtitle text="lorem ipsum sit" />
-        <h1 className="text-7xl text-white font-bold">Our Chef</h1>
+        <h1 className="text-7xl text-white font-bold">Our Restaurant</h1>
         <p className="text-gray-300 mt-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam
           mollitia quam vero dolor eos. Nam ex at perferendis voluptatibus

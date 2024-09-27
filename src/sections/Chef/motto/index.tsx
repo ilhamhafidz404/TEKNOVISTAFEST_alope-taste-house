@@ -1,6 +1,9 @@
 export default function ChefMotto() {
   return (
-    <section className="relative z-10 flex items-center justify-between h-[300px] -mb-20 mt-28 after:content-[''] after:absolute after:inset-0 after:bg-black/50 after:-z-10">
+    <section
+      id="motto"
+      className="scroll-m-20 relative z-10 flex items-center justify-between h-[300px] -mb-20 mt-28 after:content-[''] after:absolute after:inset-0 after:bg-black/50 after:-z-10"
+    >
       <div className="w-1/2 pl-20">
         <p className="text-xl text-gray-200 uppercase">
           "I just wanted to let you know that I absolutely adore your food. In

@@ -20,7 +20,7 @@ export default function MenuView() {
           <h1 className="text-6xl text-white font-bold">Our Menu</h1>
         </div>
         <div>
-          <Button text="Reservation" />
+          <Button text="Reservation" to="/reservation" />
         </div>
       </section>
     </>

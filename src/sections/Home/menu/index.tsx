@@ -14,7 +14,7 @@ export default function MenuSection() {
           <Title text="Eat the Variety of Awesome Ingredient" />
         </div>
         <div className="md:mt-0 mt-5">
-          <Button text="See Al Menu" />
+          <Button text="See Al Menu" to="/menu" />
         </div>
       </div>
       <GliderComponent
