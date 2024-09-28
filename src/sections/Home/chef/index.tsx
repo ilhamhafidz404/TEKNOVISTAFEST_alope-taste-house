@@ -28,6 +28,8 @@ export default function Chef() {
           src={`/chefs/${activeChef.img}`}
           alt="Chef"
           className="rounded-md h-full w-full object-cover"
+          width={"auto"}
+          height={"auto"}
         />
 
         <ChefExperienceCard experience={activeChef.experience} />

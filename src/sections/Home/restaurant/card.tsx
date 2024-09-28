@@ -17,20 +17,22 @@ export default function RestaurantCard({
       <span className="hidden bg-[url(/restaurants/5.jpg)]"></span>
       <span className="hidden bg-[url(/restaurants/6.jpg)]"></span>
       <div
-        className={`bg-[url(/restaurants/${restaurant.img})] h-[400px] rounded-lg w-full bg-cover relative`}
+        className={`bg-[url(/restaurants/${restaurant.img})] h-[350px] xl:h-[400px] rounded-lg w-full bg-cover relative`}
       >
-        <div className="bg-[#191f25] absolute bottom-5 left-5 right-5 p-5 rounded-md">
+        <div className="bg-[#191f25] absolute bottom-1 xl:bottom-5 left-1 xl:left-5 right-1 xl:right-5 p-5 rounded-md">
           <div className="flex gap-1 items-center">
             <StarIcon />
-            <p className="text-yellow-400 font-semibold">{restaurant.star}</p>
+            <p className="text-yellow-400 text-sm xl:text-base">
+              {restaurant.star}
+            </p>
             <small className="text-gray-400">
               ({restaurant.totalReview} Review)
             </small>
           </div>
-          <h6 className="text-lg font-semibold text-gray-100">
+          <h6 className="xl:text-lg font-semibold text-gray-100">
             {restaurant.name}
           </h6>
-          <p className="font-medium text-gray-300 mt-3">
+          <p className="font-medium text-gray-300 mt-3 text-sm xl:text-base">
             {formatToRupiah(restaurant.prices.min)} -{" "}
             {formatToRupiah(restaurant.prices.max)}
           </p>

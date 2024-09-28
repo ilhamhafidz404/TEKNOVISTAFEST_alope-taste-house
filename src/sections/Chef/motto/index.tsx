@@ -25,6 +25,8 @@ export default function ChefMotto() {
             maskImage: "linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0))",
             objectPosition: "0 -700px",
           }}
+          width={"auto"}
+          height={"auto"}
         />
       </div>
     </section>

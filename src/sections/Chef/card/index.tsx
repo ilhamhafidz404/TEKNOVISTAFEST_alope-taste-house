@@ -18,6 +18,8 @@ export default function ChefCard({
           src={`/chefs/${img}`}
           className="w-full h-full object-cover hover:scale-125 transition-all duration-500"
           alt={alt}
+          width={"auto"}
+          height={"auto"}
         />
       </div>
       <div className="bg-[#191f25] p-3 border-t-[5px] border-[#bc8b57]">

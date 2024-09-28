@@ -8,7 +8,7 @@ export default function Header() {
           <h1 className="text-[#bc8b57] font-bold text-xl md:text-2xl">
             Maakanan Kami Siap Menggugah Anda
           </h1>
-          <h2 className="text-white text-4xl md:text-6xl font-bold mt-5">
+          <h2 className="text-white text-3xl md:text-5xl font-bold mt-5">
             Rasakan Sensasi Ketagihan Sebenarnya
           </h2>
           <p className="text-gray-100 mt-5 text-sm md:text-base">

@@ -20,13 +20,13 @@ export default function LocationView() {
   return (
     <>
       <Header />
-      <main className="px-20">
-        <div className="mt-20 mb-10 flex items-center justify-between">
-          <div>
+      <main className="xl:px-20 md:px-10 px-5">
+        <div className="mt-20 mb-10 flex lg:flex-row flex-col lg:items-center md:items-start items-center lg:justify-between">
+          <div className="md:text-left text-center">
             <Subtitle text="Our Location" />
             <Title text={"ALOPE Taste House Restaurant"} />
           </div>
-          <div>
+          <div className="mt-5 xl:mt-0 md:text-left text-center">
             <p className="text-gray-200 text-sm mb-1">View on</p>
             <div className="flex gap-">
               <button
@@ -60,7 +60,7 @@ export default function LocationView() {
             <LocationMapSection />
           </div>
         ) : (
-          <div className="grid grid-cols-3 gap-5 mt-20">
+          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-3 xl:gap-5 mt-20">
             {restaurants.map((restaurant, index) => (
               <RestaurantCard key={index} restaurant={restaurant} />
             ))}

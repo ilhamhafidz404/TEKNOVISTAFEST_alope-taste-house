@@ -32,6 +32,8 @@ export default function TopRestaurant() {
             src="/restaurants/1.jpg"
             alt=""
             className="h-full w-full object-cover"
+            width={"auto"}
+            height={"auto"}
           />
           {hoveredRestaurant == 1 && (
             <div className="bg-[#191f25] absolute bottom-5 left-5 right-5 p-5 rounded-md">
@@ -64,6 +66,8 @@ export default function TopRestaurant() {
             src="/restaurants/2.jpg"
             alt=""
             className="h-full w-full object-cover"
+            width={"auto"}
+            height={"auto"}
           />
           {hoveredRestaurant == 2 && (
             <div className="bg-[#191f25] absolute bottom-5 left-5 right-5 p-5 rounded-md">
@@ -96,6 +100,8 @@ export default function TopRestaurant() {
             src="/restaurants/3.jpg"
             alt=""
             className="h-full w-full object-cover"
+            width={"auto"}
+            height={"auto"}
           />
           {hoveredRestaurant == 3 && (
             <div className="bg-[#191f25] absolute bottom-5 left-5 right-5 p-5 rounded-md">

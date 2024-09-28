@@ -25,7 +25,13 @@ export default function MenuCard({
       >
         {index % 2 == 0 && (
           <div className="col-span-2">
-            <img src={img} alt="" className="h-[650px] w-full object-cover" />
+            <img
+              src={img}
+              alt="img from unsplash"
+              className="h-[650px] w-full object-cover"
+              width={"auto"}
+              height={"auto"}
+            />
           </div>
         )}
         <div className={`col-span-3 ${index != 2 ? "pl-20" : "pr-20"}`}>
@@ -57,7 +63,13 @@ export default function MenuCard({
         </div>
         {index % 2 != 0 && (
           <div className="col-span-2">
-            <img src={img} alt="" className="h-[650px] w-full object-cover" />
+            <img
+              src={img}
+              alt="img from unsplash"
+              className="h-[650px] w-full object-cover"
+              width={"auto"}
+              height={"auto"}
+            />
           </div>
         )}
       </div>

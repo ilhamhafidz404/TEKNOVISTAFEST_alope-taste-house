@@ -10,6 +10,8 @@ export default function FooterInstaPost() {
                 src="/logo/instagram.png"
                 alt=""
                 className="mx-auto w-[40px] object-cover"
+                width={40}
+                height={40}
               />
               <p className="-mt-1">See on Instagram</p>
             </span>
@@ -46,6 +48,8 @@ export default function FooterInstaPost() {
                 src="/logo/instagram.png"
                 alt=""
                 className="mx-auto w-[40px] object-cover"
+                width={40}
+                height={40}
               />
               <p className="-mt-1">See on Instagram</p>
             </span>
@@ -64,6 +68,8 @@ export default function FooterInstaPost() {
                 src="/logo/instagram.png"
                 alt=""
                 className="mx-auto w-[40px] object-cover"
+                width={40}
+                height={40}
               />
               <p className="-mt-1">See on Instagram</p>
             </span>
@@ -82,6 +88,8 @@ export default function FooterInstaPost() {
                 src="/logo/instagram.png"
                 alt=""
                 className="mx-auto w-[40px] object-cover"
+                width={40}
+                height={40}
               />
               <p className="-mt-1">See on Instagram</p>
             </span>

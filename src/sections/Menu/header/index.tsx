@@ -34,7 +34,13 @@ export default function Header() {
         {/* burger: https://www.pngwing.com/id/free-png-aqoob */}
         {/* pizza: https://www.pngwing.com/id/free-png-yykam */}
         {/* bbq: https://www.pngwing.com/id/free-png-kycyz */}
-        <img src={currentImage} alt="Menu item" className="w-[500px]" />
+        <img
+          src={currentImage}
+          alt="Menu item"
+          className="w-[500px]"
+          width={"auto"}
+          height={"auto"}
+        />
       </div>
     </div>
   );

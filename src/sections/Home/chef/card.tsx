@@ -65,6 +65,8 @@ function ChefLocationCard({ location, img }: ChefLocationCardProps) {
           src={`/restaurants/${img}`}
           alt=""
           className="w-[120px] lg:w-[150px] h-[100px] lg:h-[130px] object-cover rounded-md"
+          width={"auto"}
+          height={"auto"}
         />
       </div>
       <div className="mr-10">
