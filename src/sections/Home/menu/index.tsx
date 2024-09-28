@@ -21,8 +21,27 @@ export default function MenuSection() {
         draggable
         hasArrows
         hasDots
-        slidesToShow={4}
         slidesToScroll={1}
+        responsive={[
+          {
+            breakpoint: 640, // untuk layar kecil (mobile)
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+          {
+            breakpoint: 768, // untuk layar sedang (tablet)
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 1024, // untuk layar besar (desktop)
+            settings: {
+              slidesToShow: 4,
+            },
+          },
+        ]}
         iconLeft={<ChevronLeft myClass="size-10" />}
         iconRight={<ChevronRight myClass="size-10" />}
       >

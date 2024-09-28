@@ -2,7 +2,7 @@ import { Menu } from "../../../models/Menu";
 
 export default function MenuCard({ menu }: { menu: Menu }) {
   return (
-    <div className="mx-5 pb-10">
+    <div className="xl:mx-5 mx-2 pb-10">
       <img
         src={menu.image}
         alt=""

@@ -6,7 +6,7 @@ import FooterPageLinks from "./pageLinks";
 export default function Footer() {
   return (
     <footer>
-      <div className="mt-20 px-5 md:px-10 lg:px-20 bg-[#191f25] grid md:grid-cols-2 lg:grid-cols-3 gap-10 py-10 shadow">
+      <div className="mt-20 px-5 md:px-10 xl:px-20 bg-[#191f25] grid md:grid-cols-2 lg:grid-cols-3 gap-10 py-10 shadow">
         <div>
           <p className="text-2xl font-semibold flex items-center gap-2">
             <StoreIcon />

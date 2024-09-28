@@ -13,7 +13,7 @@ export default function HomeView() {
   return (
     <>
       <Header />
-      <main className="lg:px-20 md:px-10 px-5">
+      <main className="xl:px-20 md:px-10 px-5">
         <Benefit />
         <Restaurant />
         <MenuSection />
