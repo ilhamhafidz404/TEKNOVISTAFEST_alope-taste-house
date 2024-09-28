@@ -54,15 +54,7 @@ export default function Restaurant() {
             (restaurant) => restaurant.location.toLowerCase() === filterLocation
           )
           .map((restaurant, index) => (
-            <RestaurantCard
-              key={index}
-              name={restaurant.name}
-              img={restaurant.img}
-              location={restaurant.location}
-              totalReview={restaurant.totalReview}
-              star={restaurant.star}
-              prices={restaurant.prices}
-            />
+            <RestaurantCard key={index} restaurant={restaurant} />
           ))}
       </div>
       <div className="mt-10 flex justify-center">

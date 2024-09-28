@@ -25,6 +25,14 @@ export default function FooterPageLinks() {
             Chef
           </Link>
         </li>
+        <li className="mb-1">
+          <Link
+            to={"/reservation"}
+            className="text-gray-300 hover:text-[#bc8b57]"
+          >
+            Reservation
+          </Link>
+        </li>
       </ul>
     </div>
   );

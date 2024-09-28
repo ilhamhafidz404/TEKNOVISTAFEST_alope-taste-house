@@ -3,7 +3,11 @@ import StarIcon from "../../../components/icons/star";
 import { Restaurant } from "../../../models/Resturant";
 import formatToRupiah from "../../../tools/formatRupiah";
 
-export default function RestaurantCard(restaurant: Restaurant) {
+export default function RestaurantCard({
+  restaurant,
+}: {
+  restaurant: Restaurant;
+}) {
   return (
     <>
       <span className="hidden bg-[url(/restaurants/1.jpg)]"></span>

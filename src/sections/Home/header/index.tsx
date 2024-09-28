@@ -19,9 +19,12 @@ export default function Header() {
           </p>
 
           <div className="mt-10 inline-flex gap-5">
-            <button className="px-5 py-3 rounded-md text-[#bc8b57] border-2 border-[#bc8b57] hover:bg-[#bc8b57] hover:text-white font-medium">
+            <Link
+              to={"/reservation"}
+              className="px-5 py-3 rounded-md text-[#bc8b57] border-2 border-[#bc8b57] hover:bg-[#bc8b57] hover:text-white font-medium"
+            >
               Reservasi
-            </button>
+            </Link>
             <Link
               to={"/menu"}
               className="px-5 py-3 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium"

@@ -62,15 +62,7 @@ export default function LocationView() {
         ) : (
           <div className="grid grid-cols-3 gap-5 mt-20">
             {restaurants.map((restaurant, index) => (
-              <RestaurantCard
-                key={index}
-                name={restaurant.name}
-                img={restaurant.img}
-                location={restaurant.location}
-                totalReview={restaurant.totalReview}
-                star={restaurant.star}
-                prices={restaurant.prices}
-              />
+              <RestaurantCard key={index} restaurant={restaurant} />
             ))}
           </div>
         )}

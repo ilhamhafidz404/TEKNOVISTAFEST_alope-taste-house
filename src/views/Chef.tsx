@@ -24,8 +24,9 @@ export default function ChefView() {
         <Title text={"Professional Chef"} />
       </div>
       <div id="chef" className="grid grid-cols-4 px-20 gap-5 mt-10 scroll-m-44">
-        {chefs.map((chef) => (
+        {chefs.map((chef, index) => (
           <ChefCard
+            key={index}
             name={chef.name}
             location={chef.location}
             img={chef.photo}
