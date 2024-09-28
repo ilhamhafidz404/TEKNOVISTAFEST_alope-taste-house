@@ -5,7 +5,9 @@ import {
   Marker,
   useJsApiLoader,
 } from "@react-google-maps/api";
-import { Link } from "react-router-dom";
+
+import restaurants from "./../../../data/restaurants.json";
+import { Restaurant } from "../../../models/Resturant";
 
 const containerStyle = {
   width: "100%",
@@ -25,31 +27,6 @@ const indonesiaBounds = {
   west: 105.0, // Bagian barat Jakarta
   east: 115.5, // Bagian timur Kalimantan
 };
-
-// Define marker type
-interface MarkerType {
-  title: string;
-  from: string;
-  image: string;
-  type: string;
-  longlat: {
-    lat: number;
-    lng: number;
-  };
-}
-
-const dataMarker = [
-  {
-    title: "Tari Saman",
-    from: "Nanggoroe Aceh Darussalam",
-    image: "tariSaman.jpg",
-    type: "tarian",
-    longlat: {
-      lat: -6.987725,
-      lng: 108.5381052,
-    },
-  },
-];
 
 // Dark mode style
 const darkModeStyle = [
@@ -139,7 +116,7 @@ function LocationMapSection() {
     googleMapsApiKey: "AIzaSyBKDtW47ZKzT5JPduQvi3gUFNHNZmXk-FU",
   });
 
-  const [selectedMarker, setSelectedMarker] = useState<MarkerType | null>(null);
+  const [selectedMarker, setSelectedMarker] = useState<Restaurant | null>(null);
 
   return isLoaded ? (
     <GoogleMap
@@ -157,16 +134,16 @@ function LocationMapSection() {
       zoom={6}
     >
       <>
-        {dataMarker.map((marker, i) => (
+        {restaurants.map((restaurant, i) => (
           <Marker
             key={i}
             position={{
-              lat: marker.longlat.lat,
-              lng: marker.longlat.lng,
+              lat: restaurant.longlat.lat,
+              lng: restaurant.longlat.lng,
             }}
-            onClick={() => setSelectedMarker(marker)}
+            onClick={() => setSelectedMarker(restaurant)}
             icon={{
-              url: `/restaurants/1.jpg`, // Ganti dengan URL gambar kustom Anda
+              url: `/restaurants/${restaurant.img}`, // Ganti dengan URL gambar kustom Anda
               scaledSize: new window.google.maps.Size(40, 40), // Ukuran yang sama untuk lebar dan tinggi
               origin: new window.google.maps.Point(0, 0),
               anchor: new window.google.maps.Point(20, 20),
@@ -187,33 +164,25 @@ function LocationMapSection() {
             }}
             onCloseClick={() => setSelectedMarker(null)}
           >
-            <div className="bg-white rounded text-center">
+            <div className="bg-[#0e1317] p-4 rounded text-center">
               <img
-                src={`./images/mapMarker/${selectedMarker.image}`}
+                src={`/restaurants/${selectedMarker.img}`}
                 width={200}
                 height={200}
-                className="object-cover"
+                className="object-cover rounded-md mx-auto"
               />
-              <h1 className="font-bold text-xl text-gray-800 mt-3">
-                {selectedMarker.title}
-              </h1>
-              <small className="text-gray-600">{selectedMarker.from}</small>
+              <h6 className="font-medium mb-2 text-xl text-gray-200 mt-3">
+                {selectedMarker.name}
+              </h6>
+              <p className="text-gray-300 w-3/4 mx-auto">
+                {selectedMarker.description}
+              </p>
               <br />
-              {selectedMarker.type === "makanan" ? (
-                <Link
-                  to={"/ragam-indonesia/makanan/detail"}
-                  className="bg-orange-500 inline-block text-white hover:bg-orange-400 rounded px-8 py-2 mt-5"
-                >
-                  Baca Selengkapnya
-                </Link>
-              ) : (
-                <Link
-                  to={"/ragam-indonesia/tarian/detail"}
-                  className="bg-purple-500 inline-block text-white hover:bg-purple-400 rounded px-8 py-2 mt-5"
-                >
-                  Baca Selengkapnya
-                </Link>
-              )}
+              <button className="px-7 py-2 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium">
+                Detail Lokasi
+              </button>
+              <br />
+              <br />
             </div>
           </InfoWindow>
         )}

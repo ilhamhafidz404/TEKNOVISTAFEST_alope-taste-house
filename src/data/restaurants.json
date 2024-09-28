@@ -10,7 +10,11 @@
       "min": 20000,
       "max": 200000
     },
-    "location": "kuningan"
+    "location": "kuningan",
+    "longlat": {
+      "lat": -6.987725,
+      "lng": 108.5381052
+    }
   },
   {
     "name": "ALOPE Ocean Delights",
@@ -23,7 +27,11 @@
       "min": 10000,
       "max": 250000
     },
-    "location": "kuningan"
+    "location": "kuningan",
+    "longlat": {
+      "lat": 0.5139466,
+      "lng": 110.4733604
+    }
   },
   {
     "name": "ALOPE Heritage Flavors",
@@ -36,7 +44,11 @@
       "min": 70000,
       "max": 800000
     },
-    "location": "kuningan"
+    "location": "kuningan",
+    "longlat": {
+      "lat": -1.6927334,
+      "lng": 113.3702533
+    }
   },
   {
     "name": "ALOPE Garden Bistro",
@@ -49,7 +61,11 @@
       "min": 20000,
       "max": 200000
     },
-    "location": "jakarta"
+    "location": "jakarta",
+    "longlat": {
+      "lat": -2.5119278,
+      "lng": 111.2383443
+    }
   },
   {
     "name": "ALOPE Fiesta",
@@ -62,7 +78,11 @@
       "min": 10000,
       "max": 250000
     },
-    "location": "jakarta"
+    "location": "jakarta",
+    "longlat": {
+      "lat": -7.9755017,
+      "lng": 112.630172
+    }
   },
   {
     "name": "ALOPE Grill & Smokehouse Serpong",
@@ -75,6 +95,10 @@
       "min": 70000,
       "max": 800000
     },
-    "location": "jakarta"
+    "location": "jakarta",
+    "longlat": {
+      "lat": -2.5119278,
+      "lng": 111.2383443
+    }
   }
 ]

@@ -1,3 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#map {
+  margin: 0 !important;
+  border-radius: 10px;
+}
+#map img[src*="assets"][draggable="false"],
+#map img[src*="/restaurants/"][draggable="false"] {
+  border-radius: 100%;
+  position: static !important;
+}
+#map
+  div[style*="width: 40px; height: 40px; overflow: hidden; position: absolute;"] {
+  /* background-color: rgba(230, 40, 41, 0.2); */
+  border-radius: 100%;
+  width: 45px !important;
+  height: 45px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible !important;
+  border: 5px solid #bc8b57;
+}
+#map
+  div[style*="width: 40px; height: 40px; overflow: hidden; position: absolute;"]::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 23px solid #bc8b57;
+  bottom: -20.9px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -10000000000000000;
+}
+
+#map .gm-style .gm-style-iw-c,
+.gm-style .gm-style-iw-d {
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+#map .gm-style-iw .gm-style-iw-c div,
+#map .gm-style-iw .gm-style-iw-d div .bg-white.rounded.text-center {
+  padding: 10px !important;
+}
+
+#map .gm-style-iw-d div div,
+#map .gm-style-iw-chr {
+  background-color: #0e1317 !important;
+  color: white;
+}
+
+#map .gm-style-iw-chr button span {
+  background-color: white !important;
+}
