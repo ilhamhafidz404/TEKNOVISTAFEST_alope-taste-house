@@ -2,7 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    objectPosition: {
+      pastaXL: "0 -650px",
+      pastaMD: "0 -300px",
+    },
   },
   plugins: [],
 };

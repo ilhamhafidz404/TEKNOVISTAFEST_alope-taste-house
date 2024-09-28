@@ -23,7 +23,10 @@ export default function ChefView() {
         <Subtitle text="Our Menu" />
         <Title text={"Professional Chef"} />
       </div>
-      <div id="chef" className="grid grid-cols-4 px-20 gap-5 mt-10 scroll-m-44">
+      <div
+        id="chef"
+        className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-5 md:px-10 xl:px-20 gap-5 mt-10 scroll-m-44"
+      >
         {chefs.map((chef, index) => (
           <ChefCard
             key={index}
