@@ -13,7 +13,7 @@ export default function ReservationView() {
     <>
       <HeaderReservationSection />
 
-      <main className="px-20 mt-48">
+      <main className="px-5 md:px-10 xl:px-20 mt-96 md:mt-48">
         <Benefit />
 
         <div id="testimonials" className="text-center mt-20 mb-10 scroll-m-20">

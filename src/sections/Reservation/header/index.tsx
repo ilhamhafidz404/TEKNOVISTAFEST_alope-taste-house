@@ -8,7 +8,7 @@ export default function HeaderReservationSection() {
           <h1 className="text-[#bc8b57] font-bold text-xl md:text-2xl">
             BOOK YOUR TABLE
           </h1>
-          <h2 className="text-white text-4xl md:text-6xl font-bold mt-5">
+          <h2 className="text-white text-3xl lg:text-4xl md:text-6xl font-bold mt-5">
             Online Reservations Available
           </h2>
           <p className="text-gray-100 mt-5 text-sm md:text-base">
