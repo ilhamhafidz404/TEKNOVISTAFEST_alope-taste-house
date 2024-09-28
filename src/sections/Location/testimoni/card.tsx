@@ -2,10 +2,10 @@ export default function TestimoniCard() {
   return (
     <div className="h-[400px] bg-[#191f25] rounded-lg relative mb-7">
       <div className="py-10 md:py-20 px-5 md:px-10 ">
-        <p className="text-5xl md:text-9xl xl:text-[200px] md:-mt-10 xl:-mt-20 text-[#bc8b57] font-serif">
+        <p className="text-5xl md:text-9xl xl:text-[150px] md:-mt-10 xl:-mt-14 text-[#bc8b57] font-serif">
           "
         </p>
-        <p className="text-gray-300 md:-mt-12 xl:-mt-32 md:w-3/4 text-sm md:text-sm xl:text-base">
+        <p className="text-gray-300 md:-mt-12 xl:-mt-20 md:w-3/4 text-sm md:text-sm xl:text-base">
           My appetites were satisfied by your kale chips and crackers without
           making me compromise my diet. I was also quite happy to see that these
           things were being produced locally. I was happy to learn that my food

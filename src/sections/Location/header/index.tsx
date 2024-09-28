@@ -19,8 +19,8 @@ export default function Header() {
   }, [images]);
 
   return (
-    <div className="xl:flex justify-between items-center px-5 md:px-10 xl:px-20 bg-[url('/banner.png')] h-[800px] xl:h-[700px] bg-cover text-center md:text-left">
-      <div className="xl:w-[700px] xl:pt-0 pt-44">
+    <div className="lg:flex justify-between items-center px-5 md:px-10 xl:px-20 bg-[url('/banner.png')] h-[800px] xl:h-[700px] bg-cover text-center md:text-left">
+      <div className="lg:w-[700px] lg:pt-0 pt-44">
         <Subtitle text="lorem ipsum sit" />
         <h1 className="text-3xl md:text-5xl xl:text-7xl text-white font-bold">
           Our Restaurant
