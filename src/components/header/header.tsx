@@ -41,7 +41,7 @@ export default function Header({
         {/* bbq: https://www.pngwing.com/id/free-png-kycyz */}
         <img
           src={currentImage}
-          alt="Menu item"
+          alt="Menu item img from png wing"
           className="xl:w-[550px] lg:w-[500px] md:w-[400px] w-full h-full mx-auto xl:mt-0 mt-10"
           width={"auto"}
           height={"auto"}

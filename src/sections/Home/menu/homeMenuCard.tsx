@@ -5,7 +5,7 @@ export default function MenuCard({ menu }: { menu: Menu }) {
     <div className="xl:mx-5 mx-2 pb-10">
       <img
         src={menu.image}
-        alt=""
+        alt="img from unsplash"
         className="rounded-md h-[250px] w-full object-cover"
         width={"auto"}
         height={"auto"}

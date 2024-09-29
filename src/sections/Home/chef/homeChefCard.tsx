@@ -63,7 +63,7 @@ function ChefLocationCard({ location, img }: ChefLocationCardProps) {
       <div>
         <img
           src={`/restaurants/${img}`}
-          alt=""
+          alt="restaurant img form unsplash"
           className="w-[120px] lg:w-[150px] h-[100px] lg:h-[130px] object-cover rounded-md"
           width={"auto"}
           height={"auto"}

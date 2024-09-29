@@ -1,7 +1,7 @@
 [
   {
     "name": "ALOPE Grill & Smokehouse",
-    "description": "Spesialisasi di menu panggangan dan daging asap.",
+    "description": "Specializes in grilled and smoked meats.",
     "img": "4.jpg",
     "alt": "https://unsplash.com/photos/people-inside-restaurant-LOLSb7m6XkU",
     "star": 5.0,
@@ -18,7 +18,7 @@
   },
   {
     "name": "ALOPE Ocean Delights",
-    "description": "Restoran yang berfokus pada seafood dan hidangan laut segar.",
+    "description": "A restaurant that focuses on seafood and fresh seafood.",
     "img": "5.jpg",
     "alt": "https://unsplash.com/photos/clear-glass-cup-on-brown-wooden-table-sQopSb2K0CU",
     "star": 5.0,
@@ -29,13 +29,13 @@
     },
     "location": "kuningan",
     "longlat": {
-      "lat": 0.5139466,
-      "lng": 110.4733604
+      "lat": -6.1310081,
+      "lng": 106.8457157
     }
   },
   {
     "name": "ALOPE Heritage Flavors",
-    "description": "Menampilkan menu masakan tradisional dengan resep warisan.",
+    "description": "Featuring a traditional menu with heritage recipes.",
     "img": "6.jpg",
     "alt": "https://unsplash.com/photos/tables-and-chairs-inside-building-H7xTpvBjJS4",
     "star": 5.0,
@@ -52,7 +52,7 @@
   },
   {
     "name": "ALOPE Garden Bistro",
-    "description": "Restoran yang menyajikan makanan sehat dan organik dalam suasana taman.",
+    "description": "Restaurant serving healthy and organic food in a garden setting.",
     "img": "1.jpg",
     "alt": "https://unsplash.com/photos/photo-of-pub-set-in-room-during-daytime-poI7DelFiVA",
     "star": 5.0,
@@ -63,13 +63,13 @@
     },
     "location": "jakarta",
     "longlat": {
-      "lat": -2.5119278,
-      "lng": 111.2383443
+      "lat": -7.8701021,
+      "lng": 110.4097097
     }
   },
   {
     "name": "ALOPE Fiesta",
-    "description": "Tempat dengan suasana meriah dan makanan untuk berbagi, cocok untuk acara keluarga atau teman.",
+    "description": "A place with a lively atmosphere and food to share, perfect for family or friends gatherings.",
     "img": "2.jpg",
     "alt": "https://unsplash.com/photos/two-person-sitting-on-bar-stool-chair-in-front-of-bar-front-desk-8x_fFNrmeDk",
     "star": 5.0,
@@ -86,7 +86,7 @@
   },
   {
     "name": "ALOPE Grill & Smokehouse Serpong",
-    "description": "Spesialisasi di menu panggangan dan daging asap cabang Serpong.",
+    "description": "Specializes in the Serpong branch's grill and smoked meat menu..",
     "img": "3.jpg",
     "alt": "https://unsplash.com/photos/people-sitting-inside-cafe-klXhDG8Roj4",
     "star": 5.0,
@@ -99,6 +99,23 @@
     "longlat": {
       "lat": -2.5119278,
       "lng": 111.2383443
+    }
+  },
+  {
+    "name": "ALOPE Grill & Smokehouse Jepara",
+    "description": "Specializes in the Jepara branch's grill and smoked meat menu.",
+    "img": "3.jpg",
+    "alt": "https://unsplash.com/photos/people-sitting-inside-cafe-klXhDG8Roj4",
+    "star": 5.0,
+    "totalReview": 10,
+    "prices": {
+      "min": 70000,
+      "max": 800000
+    },
+    "location": "jakarta",
+    "longlat": {
+      "lat": -6.5420603,
+      "lng": 110.6990796
     }
   }
 ]

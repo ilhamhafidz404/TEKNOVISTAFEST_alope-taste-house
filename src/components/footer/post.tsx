@@ -7,8 +7,8 @@ export default function FooterInstaPost() {
           <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
             <span className="text-center inline-block">
               <img
-                src="/logo/instagram.png"
-                alt=""
+                src="/logo/instagram.svg"
+                alt="logo instaram from pngwing"
                 className="mx-auto w-[40px] object-cover"
                 width={40}
                 height={40}
@@ -27,8 +27,8 @@ export default function FooterInstaPost() {
           <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
             <span className="text-center inline-block">
               <img
-                src="/logo/instagram.png"
-                alt=""
+                src="/logo/instagram.svg"
+                alt="logo instaram from pngwing"
                 className="mx-auto w-[40px] h-full object-cover"
               />
               <p className="-mt-1">See on Instagram</p>
@@ -45,8 +45,8 @@ export default function FooterInstaPost() {
           <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
             <span className="text-center inline-block">
               <img
-                src="/logo/instagram.png"
-                alt=""
+                src="/logo/instagram.svg"
+                alt="logo instaram from pngwing"
                 className="mx-auto w-[40px] object-cover"
                 width={40}
                 height={40}
@@ -65,8 +65,8 @@ export default function FooterInstaPost() {
           <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
             <span className="text-center inline-block">
               <img
-                src="/logo/instagram.png"
-                alt=""
+                src="/logo/instagram.svg"
+                alt="logo instaram from pngwing"
                 className="mx-auto w-[40px] object-cover"
                 width={40}
                 height={40}
@@ -85,8 +85,8 @@ export default function FooterInstaPost() {
           <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-xs z-10">
             <span className="text-center inline-block">
               <img
-                src="/logo/instagram.png"
-                alt=""
+                src="/logo/instagram.svg"
+                alt="logo instaram from pngwing"
                 className="mx-auto w-[40px] object-cover"
                 width={40}
                 height={40}

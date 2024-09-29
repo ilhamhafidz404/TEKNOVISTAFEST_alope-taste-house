@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
+      {/* img header from unsplash */}
       <header className="h-screen bg-[url(/header.jpg)] bg-cover relative after:absolute after:inset-0 after:bg-gradient-to-t from-[#0e1317] to to-[#0e1317]/50 flex items-center justify-center">
         <div className="w-10/12 lg:w-2/3 text-center z-10 relative">
           <h1 className="text-[#bc8b57] font-bold text-xl md:text-2xl">

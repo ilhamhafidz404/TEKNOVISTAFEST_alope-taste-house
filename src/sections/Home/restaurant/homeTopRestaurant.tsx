@@ -1,6 +1,10 @@
 import { useState } from "react";
+
+// global component
 import Button from "../../../components/button/button";
 import { Subtitle, Title } from "../../../components/text/text";
+
+// icons
 import StarIcon from "../../../components/icons/star";
 import { ChevronRight } from "../../../components/icons/chevron";
 
@@ -30,7 +34,7 @@ export default function TopRestaurant() {
           {/* https://unsplash.com/photos/photo-of-pub-set-in-room-during-daytime-poI7DelFiVA */}
           <img
             src="/restaurants/1.jpg"
-            alt=""
+            alt="img from unsplash"
             className="h-full w-full object-cover"
             width={"auto"}
             height={"auto"}
@@ -64,7 +68,7 @@ export default function TopRestaurant() {
           {/* https://unsplash.com/photos/two-person-sitting-on-bar-stool-chair-in-front-of-bar-front-desk-8x_fFNrmeDk */}
           <img
             src="/restaurants/2.jpg"
-            alt=""
+            alt="img from unsplash"
             className="h-full w-full object-cover"
             width={"auto"}
             height={"auto"}
@@ -98,7 +102,7 @@ export default function TopRestaurant() {
           {/* https://unsplash.com/photos/people-sitting-inside-cafe-klXhDG8Roj4 */}
           <img
             src="/restaurants/3.jpg"
-            alt=""
+            alt="img from unsplash"
             className="h-full w-full object-cover"
             width={"auto"}
             height={"auto"}

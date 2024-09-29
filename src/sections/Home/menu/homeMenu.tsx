@@ -1,8 +1,15 @@
-import GliderComponent from "react-glider";
-import MenuCard from "./homeMenuCard";
+// global components
 import { Subtitle, Title } from "../../../components/text/text";
 import Button from "../../../components/button/button";
+
+//
+import MenuCard from "./homeMenuCard";
+import GliderComponent from "react-glider";
+
+// icons
 import { ChevronLeft, ChevronRight } from "../../../components/icons/chevron";
+
+// data
 import menus from "../../../data/menus.json";
 
 export default function MenuSection() {

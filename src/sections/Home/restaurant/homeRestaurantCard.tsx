@@ -1,6 +1,11 @@
+// icons
 import { ChevronRight } from "../../../components/icons/chevron";
 import StarIcon from "../../../components/icons/star";
+
+// models
 import { Restaurant } from "../../../models/Resturant";
+
+// tools
 import formatToRupiah from "../../../tools/formatRupiah";
 
 export default function RestaurantCard({
@@ -16,6 +21,7 @@ export default function RestaurantCard({
       <span className="hidden bg-[url(/restaurants/4.jpg)]"></span>
       <span className="hidden bg-[url(/restaurants/5.jpg)]"></span>
       <span className="hidden bg-[url(/restaurants/6.jpg)]"></span>
+      {/* img from unsplash */}
       <div
         className={`bg-[url(/restaurants/${restaurant.img})] h-[350px] xl:h-[400px] rounded-lg w-full bg-cover relative`}
       >

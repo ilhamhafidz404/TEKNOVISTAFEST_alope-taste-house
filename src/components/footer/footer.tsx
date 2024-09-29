@@ -2,6 +2,7 @@ import StoreIcon from "../icons/store";
 import FooterInstaPost from "./post";
 import FooterSectionLinks from "./sectionLinks";
 import FooterPageLinks from "./pageLinks";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -16,6 +17,31 @@ export default function Footer() {
             Welcome to ALOPE Taste House, where passion for delicious food meets
             a warm and inviting atmosphere.
           </p>
+
+          <div className="mt-7 bg-[#0e1317] px-5 py-3 rounded inline-block">
+            <p className="text-white mb-3 text-sm">Switch Language</p>
+            <div className="flex gap-4 items-center">
+              <Link
+                to={"?lang=en"}
+                className="border-4 border-[#ce9a64] rounded-full"
+              >
+                <img
+                  src="/logo/us.svg"
+                  alt="US flag img from flat icon"
+                  width={35}
+                  height={35}
+                />
+              </Link>
+              <Link to={"?lang=id"}>
+                <img
+                  src="/logo/indonesia.svg"
+                  alt="Indonesia flag img from flat icon"
+                  width={35}
+                  height={35}
+                />
+              </Link>
+            </div>
+          </div>
         </div>
         <div className="flex gap-28">
           <FooterPageLinks />

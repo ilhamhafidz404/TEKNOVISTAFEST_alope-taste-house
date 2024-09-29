@@ -24,9 +24,10 @@ export default function Chef() {
       className="grid md:grid-cols-2 lg:gap-20 gap-10 mt-20 items-center scroll-mt-20"
     >
       <div className="h-[800px] relative">
+        {/* img from unsplash */}
         <img
           src={`/chefs/${activeChef.img}`}
-          alt="Chef"
+          alt="Chef img from unsplash"
           className="rounded-md h-full w-full object-cover"
           width={"auto"}
           height={"auto"}
