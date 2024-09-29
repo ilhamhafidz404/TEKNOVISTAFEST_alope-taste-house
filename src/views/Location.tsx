@@ -57,6 +57,9 @@ export default function LocationView() {
             </p>
             <div className="flex gap-">
               <button
+                title="See on Map"
+                aria-label="See on Map"
+                type="button"
                 className={`px-3 py-2 rounded-l-md text-[#bc8b57] border-2 border-[#bc8b57] ${
                   viewOn == 1 && "bg-[#bc8b57] text-white"
                 } text-sm inline-flex items-center gap-2 text-[#bc8b57]`}
@@ -68,6 +71,9 @@ export default function LocationView() {
                 {lang == "en" ? "Map" : "Peta"}
               </button>
               <button
+                title="See on Card"
+                aria-label="See on Card"
+                type="button"
                 className={`px-3 py-2 rounded-r-md text-[#bc8b57] border-2 border-[#bc8b57] ${
                   viewOn == 2 && "bg-[#bc8b57] text-white"
                 } text-sm inline-flex items-center gap-2 text-[#bc8b57]`}

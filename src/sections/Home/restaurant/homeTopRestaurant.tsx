@@ -66,7 +66,12 @@ export default function TopRestaurant({ lang }: { lang: string }) {
               <p className="font-medium text-gray-300 mt-3">
                 Rp 10.000 - Rp 20.000
               </p>
-              <button className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md">
+              <button
+                title="See Restaurant"
+                aria-label="See Restaurant"
+                type="button"
+                className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md"
+              >
                 <ChevronRight myClass="size-4 text-white" />
               </button>
             </div>
@@ -100,7 +105,12 @@ export default function TopRestaurant({ lang }: { lang: string }) {
               <p className="font-medium text-gray-300 mt-3">
                 Rp 10.000 - Rp 20.000
               </p>
-              <button className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md">
+              <button
+                title="See Restaurant"
+                aria-label="See Restaurant"
+                type="button"
+                className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md"
+              >
                 <ChevronRight myClass="size-4 text-white" />
               </button>
             </div>
@@ -134,7 +144,12 @@ export default function TopRestaurant({ lang }: { lang: string }) {
               <p className="font-medium text-gray-300 mt-3">
                 Rp 10.000 - Rp 20.000
               </p>
-              <button className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md">
+              <button
+                title="See Restaurant"
+                aria-label="See Restaurant"
+                type="button"
+                className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md"
+              >
                 <ChevronRight myClass="size-4 text-white" />
               </button>
             </div>

@@ -42,7 +42,12 @@ export default function RestaurantCard({
             {formatToRupiah(restaurant.prices.min)} -{" "}
             {formatToRupiah(restaurant.prices.max)}
           </p>
-          <button className="absolute right-5 top-1/2 -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md">
+          <button
+            title="See Restaurant"
+            aria-label="See Restaurant"
+            type="button"
+            className="absolute right-5 top-1/2 -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md"
+          >
             <ChevronRight myClass="size-4 text-white" />
           </button>
         </div>

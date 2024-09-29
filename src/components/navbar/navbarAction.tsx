@@ -20,6 +20,9 @@ export default function NavbarAction({
       </Link>
 
       <button
+        title="Toggle fullscreen nav"
+        aria-label="Toggle fullscreen nav"
+        type="button"
         className="p-1 sm:p-2 rounded-md bg-[#bc8b57] hover:bg-[#bc8b57]/80 text-white text-sm xl:hidden flex items-center gap-2 justify-center"
         onClick={() => {
           toggleNavScreen();

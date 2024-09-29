@@ -40,6 +40,9 @@ export default function Navbar() {
         />
         <div className="flex md:hidden justify-end">
           <button
+            title="Toggle fullscreen nav"
+            aria-label="Toggle fullscreen nav"
+            type="button"
             className="p-1 sm:p-2 rounded-md bg-[#bc8b57] hover:bg-[#bc8b57]/80 text-white text-sm flex items-center gap-2 justify-center"
             onClick={() => {
               setShowFullScreenNav(!showFullScreenNav);

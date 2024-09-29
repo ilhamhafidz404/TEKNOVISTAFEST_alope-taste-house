@@ -37,11 +37,10 @@ export default function Restaurant({ lang }: { lang: string }) {
           />
         </div>
         <div className="lg:mt-0 mt-5">
-          <label
-            htmlFor="citiesSelection"
-            className="flex items-center bg-[#191f25] py-3 px-5 rounded-lg gap-2"
-          >
-            <MapIcon myClass="size-5 text-gray-400" />
+          <span className="flex items-center bg-[#191f25] py-3 px-5 rounded-lg gap-2">
+            <label htmlFor="citiesSelection">
+              <MapIcon myClass="size-5 text-gray-400" />
+            </label>
             <select
               id="citiesSelection"
               className="bg-transparent text-gray-100"
@@ -55,7 +54,7 @@ export default function Restaurant({ lang }: { lang: string }) {
                 </option>
               ))}
             </select>
-          </label>
+          </span>
         </div>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 xl:gap-10 mt-5">

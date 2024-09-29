@@ -46,7 +46,12 @@ export default function HeaderBookFormReservation({ lang }: { lang: string }) {
         </div>
 
         <div className="text-center mt-5">
-          <button className="px-5 py-3 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium">
+          <button
+            title="Booking Now"
+            aria-label="Booking Now"
+            type="button"
+            className="px-5 py-3 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium"
+          >
             {lang == "en" ? "BOOK NOW" : "BOOKING SEKARANG"}
           </button>
         </div>

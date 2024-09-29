@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import { ChevronRight } from "../../../components/icons/chevron";
+import { Link } from "react-router-dom";
 
 export default function BenefitCard({
   title,
@@ -17,10 +18,13 @@ export default function BenefitCard({
       </span>
       <h5 className="mt-5 font-bold text-xl text-gray-100">{title}</h5>
       <p className="text-sm mt-1 text-gray-300">{description}</p>
-      <button className="text-gray-300 hover:bg-[#bc8b57]  hover:text-white font-medium absolute left-0 right-0 bottom-0 py-3 flex items-center justify-center gap-2">
+      <Link
+        to="/"
+        className="text-gray-300 hover:bg-[#bc8b57]  hover:text-white font-medium absolute left-0 right-0 bottom-0 py-3 flex items-center justify-center gap-2"
+      >
         View Detail
         <ChevronRight myClass="size-4" />
-      </button>
+      </Link>
     </div>
   );
 }

@@ -178,7 +178,12 @@ function LocationMapSection() {
                 {selectedMarker.description}
               </p>
               <br />
-              <button className="px-7 py-2 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium">
+              <button
+                title="Location Detail"
+                aria-label="Location Detail"
+                type="button"
+                className="px-7 py-2 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium"
+              >
                 Detail Lokasi
               </button>
               <br />
