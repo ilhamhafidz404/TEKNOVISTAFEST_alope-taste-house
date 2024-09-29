@@ -8,21 +8,35 @@ import { Subtitle, Title } from "../../../components/text/text";
 import StarIcon from "../../../components/icons/star";
 import { ChevronRight } from "../../../components/icons/chevron";
 
-export default function TopRestaurant() {
+export default function TopRestaurant({ lang }: { lang: string }) {
   const [hoveredRestaurant, setHoveredRestaurant] = useState(1);
 
   return (
     <div className="hidden md:grid lg:grid-cols-3 mb-20 items-center gap-5">
       <div className="w-full">
-        <Subtitle text="Top 3 Featured Restaurant" />
-        <Title text="Most Popular Restaurants" />
+        <Subtitle
+          text={
+            lang == "en"
+              ? "Top 3 Featured Restaurant"
+              : "3 Restoran Unggulan Teratas"
+          }
+        />
+        <Title
+          text={
+            lang == "en"
+              ? "Most Popular Restaurants"
+              : "Restorant Paling Populer"
+          }
+        />
         <p className="text-gray-300 text-sm mt-5 mb-5">
-          Experience the best culinary delights in three superior restaurants
-          with dishes that are exceptional in taste and presentation, from
-          authentic local to mouth-watering international cuisine, complete with
-          a comfortable atmosphere and unforgettable service.
+          {lang == "en"
+            ? "Experience the best culinary delights in three superior restaurants with dishes that are exceptional in taste and presentation, from authentic local to mouth-watering international cuisine, complete with a comfortable atmosphere and unforgettable service."
+            : "Rasakan kuliner terbaik di tiga restoran unggulan dengan hidangan yang luar biasa dalam rasa dan penyajian, dari masakan lokal otentik hingga internasional yang menggugah selera, lengkap dengan suasana nyaman dan pelayanan yang tak terlupakan."}
         </p>
-        <Button text="View All Restaurant" to="/location" />
+        <Button
+          text={lang == "en" ? "View All Restaurant" : "Lihat Semua Restoran"}
+          to="/location"
+        />
       </div>
       <div className="md:col-span-2 flex gap-2 justify-end lg:mt-0 mt-5">
         <div

@@ -7,7 +7,15 @@ import {
   ChefLocationCardProps,
 } from "../../../models/Chef";
 
-function ChefCard({ chef, active }: { chef: Chef; active: string }) {
+function ChefCard({
+  chef,
+  active,
+  lang,
+}: {
+  chef: Chef;
+  active: string;
+  lang: string;
+}) {
   return (
     <div
       className={`flex items-center justify-between p-5 rounded-md mb-3 ${
@@ -31,7 +39,7 @@ function ChefCard({ chef, active }: { chef: Chef; active: string }) {
           href=""
           className="flex items-center gap-2 text-[#bc8b57] text-sm font-medium"
         >
-          See Profile
+          {lang == "en" ? "See Profile" : "Lihat Profil"}
           <ChevronRight myClass="size-4" />
         </a>
       </div>

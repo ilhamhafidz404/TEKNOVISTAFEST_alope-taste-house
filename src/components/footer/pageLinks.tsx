@@ -1,18 +1,20 @@
 import { Link } from "react-router-dom";
 
-export default function FooterPageLinks() {
+export default function FooterPageLinks({ lang }: { lang: string }) {
   return (
     <div>
-      <p className="font-semibold mb-2 text-gray-100">Pages</p>
+      <p className="font-semibold mb-2 text-gray-100">
+        {lang == "en" ? "Pages" : "Halaman"}
+      </p>
       <ul>
         <li className="mb-1">
           <Link to={"/"} className="text-gray-300 hover:text-[#bc8b57]">
-            Home
+            {lang == "en" ? "Home" : "Beranda"}
           </Link>
         </li>
         <li className="mb-1">
           <Link to={"/location"} className="text-gray-300 hover:text-[#bc8b57]">
-            Location
+            {lang == "en" ? "Location" : "Lokasi"}
           </Link>
         </li>
         <li className="mb-1">
@@ -22,7 +24,7 @@ export default function FooterPageLinks() {
         </li>
         <li className="mb-1">
           <Link to={"/chef"} className="text-gray-300 hover:text-[#bc8b57]">
-            Chef
+            {lang == "en" ? "Chef" : "Koki"}
           </Link>
         </li>
         <li className="mb-1">
@@ -30,7 +32,7 @@ export default function FooterPageLinks() {
             to={"/reservation"}
             className="text-gray-300 hover:text-[#bc8b57]"
           >
-            Reservation
+            {lang == "en" ? "Reservation" : "Reservasi"}
           </Link>
         </li>
       </ul>

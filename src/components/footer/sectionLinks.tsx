@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 
-export default function FooterSections() {
+export default function FooterSections({ lang }: { lang: string }) {
   const location = useLocation(); // Mengambil URL aktif
   const currentPath = location.pathname; // Menyimpan path dari URL aktif
 
@@ -82,7 +82,9 @@ export default function FooterSections() {
 
   return (
     <div>
-      <p className="font-semibold mb-2 text-gray-100">Section</p>
+      <p className="font-semibold mb-2 text-gray-100">
+        {lang == "en" ? "Section" : "Bagian"}
+      </p>
       <ul>
         {currentSection.map((link, index) => (
           <li key={index} className="mb-1">

@@ -12,16 +12,27 @@ import { ChevronLeft, ChevronRight } from "../../../components/icons/chevron";
 // data
 import menus from "../../../data/menus.json";
 
-export default function MenuSection() {
+export default function MenuSection({ lang }: { lang: string }) {
   return (
     <section id="menu" className="mt-20 scroll-mt-20">
       <div className="mb-10 md:flex items-center justify-between">
         <div>
-          <Subtitle text="Our Delicious Menu" />
-          <Title text="Eat the Variety of Awesome Ingredient" />
+          <Subtitle
+            text={lang == "en" ? "Our Delicious Menu" : "menu Lezat Kami"}
+          />
+          <Title
+            text={
+              lang == "en"
+                ? "Eat the Variety of Awesome Ingredient"
+                : "Makanan Beragam Bahan yang Luar Biasa"
+            }
+          />
         </div>
         <div className="md:mt-0 mt-5">
-          <Button text="See Al Menu" to="/menu" />
+          <Button
+            text={lang == "en" ? "See All Menu" : "Lihat Semua Menu"}
+            to="/menu"
+          />
         </div>
       </div>
       <GliderComponent

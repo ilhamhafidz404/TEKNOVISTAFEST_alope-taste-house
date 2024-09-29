@@ -10,7 +10,7 @@ import { ChefCard, ChefExperienceCard, ChefLocationCard } from "./homeChefCard";
 // data
 import chefs from "../../../data/chefs.json";
 
-export default function Chef() {
+export default function Chef({ lang }: { lang: string }) {
   const [activeChef, setActiveChef] = useState({
     name: "Andi Pratama",
     img: "andi.jpg",
@@ -37,8 +37,10 @@ export default function Chef() {
         <ChefLocationCard location={activeChef.at} img={activeChef.atImg} />
       </div>
       <div>
-        <Subtitle text="TOP 4 EXPERT CHEF" />
-        <Title text="Expert Chef with Us" />
+        <Subtitle text={lang == "en" ? "TOP 4 EXPERT CHEF" : "4 Koki Handal"} />
+        <Title
+          text={lang == "en" ? "Expert Chef with Us" : "Koki-koki Handal Kami"}
+        />
         <div className="mt-10">
           {chefs.slice(0, 4).map((chef, index) => (
             <div
@@ -53,12 +55,15 @@ export default function Chef() {
                 })
               }
             >
-              <ChefCard chef={chef} active={activeChef.name} />
+              <ChefCard chef={chef} active={activeChef.name} lang={lang} />
             </div>
           ))}
         </div>
         <div className="mt-10">
-          <Button text="View All Chef" to={"/chef"} />
+          <Button
+            text={lang == "en" ? "View All Chef" : "Lihat Semua Koki"}
+            to={"/chef"}
+          />
         </div>
       </div>
     </section>

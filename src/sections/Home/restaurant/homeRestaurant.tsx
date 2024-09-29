@@ -15,16 +15,26 @@ import cities from "../../../data/cities.json";
 // icon
 import MapIcon from "../../../components/icons/map";
 
-export default function Restaurant() {
+export default function Restaurant({ lang }: { lang: string }) {
   const [filterLocation, setFilterLocation] = useState("kuningan");
 
   return (
     <section id="restaurant" className="mt-20 scroll-mt-20">
-      <TopRestaurant />
+      <TopRestaurant lang={lang} />
       <div className="md:flex items-center justify-between">
         <div>
-          <Subtitle text="Restaurant Based By City" />
-          <Title text="Restaurant Near You" />
+          <Subtitle
+            text={
+              lang == "en" ? "Restaurant Based By City" : "Restoran di Kota"
+            }
+          />
+          <Title
+            text={
+              lang == "en"
+                ? "Restaurant Near You"
+                : "Restoran di Dekat Tempatmu"
+            }
+          />
         </div>
         <div className="lg:mt-0 mt-5">
           <label

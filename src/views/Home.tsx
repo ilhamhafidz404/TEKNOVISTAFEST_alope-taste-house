@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 //
 import Benefit from "../sections/Home/benefit/homeBenefit";
 import Chef from "../sections/Home/chef/homeChef";
@@ -11,14 +12,17 @@ export default function HomeView() {
     window.scrollTo(0, 0);
   }, []);
 
+  const [searchParams] = useSearchParams();
+  const lang = searchParams.get("lang") || "en";
+
   return (
     <>
-      <Header />
+      <Header lang={lang} />
       <main className="xl:px-20 md:px-10 px-5">
-        <Benefit />
-        <Restaurant />
-        <MenuSection />
-        <Chef />
+        <Benefit lang={lang} />
+        <Restaurant lang={lang} />
+        <MenuSection lang={lang} />
+        <Chef lang={lang} />
       </main>
     </>
   );
