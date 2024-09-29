@@ -1,4 +1,4 @@
-import HeaderBookFormReservation from "./bookForm";
+import HeaderBookFormReservation from "./reservationBookForm";
 
 export default function HeaderReservationSection() {
   return (

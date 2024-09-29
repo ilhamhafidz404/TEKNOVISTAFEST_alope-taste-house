@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import StoreIcon from "../icons/store";
-import NavbarAction from "./action";
-import NavbarLinks from "./links";
+import NavbarAction from "./navbarAction";
+import NavbarLinks from "./navbarLinks";
 import FullScreenNav from "./fullScreenNav";
 import BarsIcon from "../icons/bars";
 

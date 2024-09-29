@@ -1,8 +1,8 @@
 // globals component
-import { Subtitle, Title } from "../../../components/text";
+import { Subtitle, Title } from "../../../components/text/text";
 
 // component
-import BenefitCard from "./card";
+import BenefitCard from "./homeBenefitCard";
 
 // icons
 import LikeIcon from "../../../components/icons/like";

@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import { Subtitle, Title } from "../components/text";
-import Benefit from "../sections/Home/benefit";
-import LocationTestimoniSection from "../sections/Location/testimoni";
-import HeaderReservationSection from "../sections/Reservation/header";
+import { Subtitle, Title } from "../components/text/text";
+import Benefit from "../sections/Home/benefit/homeBenefit";
+import LocationTestimoniSection from "../sections/Location/testimoni/testimoni";
+import HeaderReservationSection from "../sections/Reservation/header/reservationHeader";
 
 export default function ReservationView() {
   useEffect(() => {

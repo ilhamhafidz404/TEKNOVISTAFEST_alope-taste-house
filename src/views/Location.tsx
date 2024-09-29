@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import Header from "../sections/Location/header";
-import LocationMapSection from "../sections/Location/map";
-import { Subtitle, Title } from "../components/text";
-import LocationTestimoniSection from "../sections/Location/testimoni";
+import LocationMapSection from "../sections/Location/map/locationMap";
+import { Subtitle, Title } from "../components/text/text";
+import LocationTestimoniSection from "../sections/Location/testimoni/testimoni";
 import MapPaperIcon from "../components/icons/mapPaper";
 import GridIcon from "../components/icons/grid";
-import RestaurantCard from "../sections/Home/restaurant/card";
+import RestaurantCard from "../sections/Home/restaurant/homeRestaurantCard";
 
 // data
 import restaurants from "./../data/restaurants.json";
+import Header from "../components/header/header";
 
 export default function LocationView() {
   useEffect(() => {
@@ -19,7 +19,14 @@ export default function LocationView() {
 
   return (
     <>
-      <Header />
+      <Header
+        title="Our Restaurants"
+        description="Our place presents a unique blend of flavors from around the world.
+          Our restaurant prides itself on serving delicious, high-quality food
+          made from fresh ingredients."
+        img={["/header/chef1.png", "/header/chef2.png"]}
+        currentImg="/header/chef1.png"
+      />
       <main className="xl:px-20 md:px-10 px-5">
         <div className="mt-20 mb-10 flex lg:flex-row flex-col lg:items-center md:items-start items-center lg:justify-between">
           <div className="md:text-left text-center">

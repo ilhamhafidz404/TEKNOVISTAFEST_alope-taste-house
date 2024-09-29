@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import NavbarSearch from "./search";
+import NavbarSearch from "./navbarSearch";
 import BarsIcon from "../icons/bars";
 
 export default function NavbarAction({

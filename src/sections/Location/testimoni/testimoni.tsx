@@ -1,8 +1,8 @@
 import GliderComponent from "react-glider";
-import TestimoniCard from "./card";
+import TestimoniCard from "./testimoniCard";
 
 // data
-import testimonials from "./../../../data/testimonials.json";
+import testimonials from "../../../data/testimonials.json";
 
 export default function LocationTestimoniSection() {
   return (

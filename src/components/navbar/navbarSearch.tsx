@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronRight } from "../icons/chevron";
 import SearchIcon from "../icons/search";
-import NavbarSearchList from "./searchList";
+import NavbarSearchList from "./navbarSearchList";
 import CloseIcon from "../icons/close";
 
 export default function NavbarSearch() {

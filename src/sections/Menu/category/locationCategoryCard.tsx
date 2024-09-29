@@ -1,7 +1,7 @@
-import { Subtitle, Title } from "../../../components/text";
+import { Subtitle, Title } from "../../../components/text/text";
 import { MenuCategoryProps } from "../../../models/GlobalProps";
 import formatToRupiah from "../../../tools/formatRupiah";
-import MenuListItem from "./item";
+import MenuListItem from "./locationCategoryItem";
 
 export default function MenuCard({
   title,

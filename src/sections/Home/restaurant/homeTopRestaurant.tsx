@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Button from "../../../components/button";
-import { Subtitle, Title } from "../../../components/text";
+import Button from "../../../components/button/button";
+import { Subtitle, Title } from "../../../components/text/text";
 import StarIcon from "../../../components/icons/star";
 import { ChevronRight } from "../../../components/icons/chevron";
 

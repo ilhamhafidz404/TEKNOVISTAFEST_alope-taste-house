@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 
 // global components
-import { Subtitle, Title } from "../components/text";
+import { Subtitle, Title } from "../components/text/text";
+import Header from "../components/header/header";
 
 // sections
-import Header from "../sections/Chef/header";
-import ChefCard from "../sections/Chef/card";
-import ChefMotto from "../sections/Chef/motto";
+import ChefCard from "../sections/Chef/card/chefCard";
+import ChefMotto from "../sections/Chef/motto/chefMotto";
 
 // data
 import chefs from "../data/chefs.json";
@@ -18,7 +18,15 @@ export default function ChefView() {
 
   return (
     <>
-      <Header />
+      <Header
+        title="Our Chefs"
+        description="Our chef is a culinary expert with a passion for creating memorable
+          dining experiences. With years of experience in the kitchen, they
+          combine traditional techniques with modern flavors to craft dishes
+          that delight the senses."
+        img={["/header/chef1.png", "/header/chef2.png"]}
+        currentImg="/header/chef1.png"
+      />
       <div className="text-center mt-20">
         <Subtitle text="Our Menu" />
         <Title text={"Professional Chef"} />

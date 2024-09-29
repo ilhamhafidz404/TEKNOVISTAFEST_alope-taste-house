@@ -1,6 +1,6 @@
-import MenuCard from "./card";
+import MenuCard from "./locationCategoryCard";
 
-import menuWithCategories from "./../../../data/menuWithCategories.json";
+import menuWithCategories from "../../../data/menuWithCategories.json";
 
 export default function MenuCategory() {
   return (

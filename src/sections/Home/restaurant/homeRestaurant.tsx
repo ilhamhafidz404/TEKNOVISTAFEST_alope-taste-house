@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 // global components
-import { Subtitle, Title } from "../../../components/text";
-import Button from "../../../components/button";
+import { Subtitle, Title } from "../../../components/text/text";
+import Button from "../../../components/button/button";
 
 // components
-import RestaurantCard from "./card";
-import TopRestaurant from "./top";
+import RestaurantCard from "./homeRestaurantCard";
+import TopRestaurant from "./homeTopRestaurant";
 
 // data
 import restaurants from "../../../data/restaurants.json";

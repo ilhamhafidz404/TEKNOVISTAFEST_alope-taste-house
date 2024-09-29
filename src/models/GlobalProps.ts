@@ -9,4 +9,11 @@ type MenuCategoryProps = {
   price: number;
 };
 
-export type { TestimoniProps, MenuCategoryProps };
+type HeaderProps = {
+  title: string;
+  description: string;
+  img: string[];
+  currentImg: string;
+};
+
+export type { TestimoniProps, MenuCategoryProps, HeaderProps };

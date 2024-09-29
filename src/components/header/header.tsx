@@ -1,10 +1,16 @@
 import { useState, useEffect } from "react";
-import { Subtitle } from "../../../components/text";
+import { Subtitle } from "../text/text";
+import { HeaderProps } from "../../models/GlobalProps";
 
-export default function Header() {
-  const [currentImage, setCurrentImage] = useState("/header/chef1.png");
+export default function Header({
+  title,
+  description,
+  img,
+  currentImg,
+}: HeaderProps) {
+  const [currentImage, setCurrentImage] = useState(currentImg);
 
-  const images = ["/header/chef1.png", "/header/chef2.png"];
+  const images = img;
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -23,21 +29,20 @@ export default function Header() {
       <div className="lg:w-[700px] lg:pt-0 pt-44">
         <Subtitle text="ALOPE Taste House" />
         <h1 className="text-3xl md:text-5xl xl:text-7xl text-white font-bold">
-          Our Restaurant
+          {title}
         </h1>
         <p className="text-gray-300 mt-5 text-xs md:text-sm xl:text-base">
-          Our place presents a unique blend of flavors from around the world.
-          Our restaurant prides itself on serving delicious, high-quality food
-          made from fresh ingredients.
+          {description}
         </p>
       </div>
-      <div className="xl:pr-28">
+      <div className="xl:pr-20">
         {/* burger: https://www.pngwing.com/id/free-png-aqoob */}
         {/* pizza: https://www.pngwing.com/id/free-png-yykam */}
+        {/* bbq: https://www.pngwing.com/id/free-png-kycyz */}
         <img
           src={currentImage}
           alt="Menu item"
-          className="xl:w-[650px] lg:w-[500px] md:w-[400px] w-full h-full mx-auto xl:mt-0 mt-10"
+          className="xl:w-[550px] lg:w-[500px] md:w-[400px] w-full h-full mx-auto xl:mt-0 mt-10"
           width={"auto"}
           height={"auto"}
         />
