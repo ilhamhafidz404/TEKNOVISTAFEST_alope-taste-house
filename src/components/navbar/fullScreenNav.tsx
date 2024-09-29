@@ -1,4 +1,12 @@
-export default function FullScreenNav({ show }: { show: boolean }) {
+import { Link } from "react-router-dom";
+
+export default function FullScreenNav({
+  show,
+  toggleNavScreen,
+}: {
+  show: boolean;
+  toggleNavScreen: () => void;
+}) {
   return (
     <div
       className={`${
@@ -15,43 +23,51 @@ export default function FullScreenNav({ show }: { show: boolean }) {
         </div> */}
         <ul className="text-center mb-20">
           <li className="mb-4">
-            <a
-              href=""
+            <Link
+              onClick={() => toggleNavScreen()}
+              to="/"
               className="text-xl font-semibold text-white hover:text-[#bc8b57]"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li className="mb-4">
-            <a
-              href=""
+            <Link
+              onClick={() => toggleNavScreen()}
+              to="/location"
               className="text-xl font-semibold text-white hover:text-[#bc8b57]"
             >
-              Gallery
-            </a>
+              Location
+            </Link>
           </li>
           <li className="mb-4">
-            <a
-              href=""
+            <Link
+              onClick={() => toggleNavScreen()}
+              to="/menu"
               className="text-xl font-semibold text-white hover:text-[#bc8b57]"
             >
               Menu
-            </a>
+            </Link>
           </li>
           <li className="mb-4">
-            <a
-              href=""
+            <Link
+              onClick={() => toggleNavScreen()}
+              to="/chef"
               className="text-xl font-semibold text-white hover:text-[#bc8b57]"
             >
               Chef
-            </a>
+            </Link>
           </li>
         </ul>
 
         <div className="text-center">
-          <button className="px-5 py-3 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium">
-            Login
-          </button>
+          <Link
+            to={"/reservation"}
+            className="px-5 py-3 rounded-md text-white border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium"
+            onClick={() => toggleNavScreen()}
+          >
+            Reservation
+          </Link>
         </div>
       </div>
     </div>

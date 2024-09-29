@@ -11,7 +11,7 @@ export default function NavbarLinks() {
     "after:w-full after:left-0 after:right-0 after:transition-all after:duration-500";
 
   return (
-    <div className="hidden md:block">
+    <div className="hidden xl:block">
       <ul className="flex gap-5 font-medium">
         <li>
           <NavLink
