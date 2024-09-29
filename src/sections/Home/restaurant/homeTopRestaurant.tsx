@@ -70,7 +70,7 @@ export default function TopRestaurant({ lang }: { lang: string }) {
                 title="See Restaurant"
                 aria-label="See Restaurant"
                 type="button"
-                className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md"
+                className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#edc599] p-3 rounded-md"
               >
                 <ChevronRight myClass="size-4 text-white" />
               </button>
@@ -109,7 +109,7 @@ export default function TopRestaurant({ lang }: { lang: string }) {
                 title="See Restaurant"
                 aria-label="See Restaurant"
                 type="button"
-                className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md"
+                className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#edc599] p-3 rounded-md"
               >
                 <ChevronRight myClass="size-4 text-white" />
               </button>
@@ -148,7 +148,7 @@ export default function TopRestaurant({ lang }: { lang: string }) {
                 title="See Restaurant"
                 aria-label="See Restaurant"
                 type="button"
-                className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#bc8b57]/80 p-3 rounded-md"
+                className="absolute right-5 top-1/2 lg:inline-block hidden -translate-y-1/2 bg-[#bc8b57] hover:bg-[#edc599] p-3 rounded-md"
               >
                 <ChevronRight myClass="size-4 text-white" />
               </button>
