@@ -34,20 +34,17 @@ export default function NavbarSearch() {
             <NavbarSearchList
               name="Pizza"
               img="/menu/pizza.jpg"
-              description="
-            Lorem ipsum dolor, sit amet consectetur"
+              description="Offering a variety of delicious pizzas"
             />
             <NavbarSearchList
               name="Burger"
               img="/menu/burger.jpg"
-              description="
-            Lorem ipsum dolor, sit amet consectetur"
+              description="Juicy and fresh burgers, combined with vegetables"
             />
             <NavbarSearchList
               name="BBQ"
               img="/menu/bbq.jpg"
-              description="
-            Lorem ipsum dolor, sit amet consectetur"
+              description="Perfectly grilled BBQ dishes with special seasonings"
             />
             <hr className="border-[#232a31]" />
             <a

@@ -1,50 +1,68 @@
-# React + TypeScript + Vite
+# ALOPE Taste House
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ALOPE Taste House is a western-style food and beverage franchise with several branches across Indonesia. Each branch offers a unique menu, such as ALOPE Garden Bistro, which serves healthy organic dishes in a lush garden setting, or ALOPE Grill & Smokehouse, which specializes in grilled and smoked dishes.
 
-Currently, two official plugins are available:
+DEMO LINK : [preview](https://teknovistafest-alope-taste-house.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalation Guide
 
-## Expanding the ESLint configuration
+### Step 1
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Clone this Project using command
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+git clone https://github.com/ilhamhafidz404/TEKNOVISTAFEST_alope-taste-house.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Alternatively, you can download the project by clicking the "Code" button at the top and selecting "Download ZIP."
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Step 2
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+Navigate to the project directory (if you downloaded the ZIP file, make sure to extract it first), then open Command Prompt and run the following command:
+
+```bash
+npm install
 ```
+
+Wait the installation process...
+
+### Step 3
+
+After successfully installing the dependencies, enter the command to run the local server.
+
+```bash
+npm run dev
+```
+
+### Step 4
+
+Open the project in your browser by visiting the port provided after completing step 3. (The port may vary, but the default is http://localhost:5173/)
+
+## Website Features
+
+### Location Map
+
+![Location Map](public/features/locationMap.png)
+
+The branches of ALOPE Taste House can be viewed on a map, making it easier for customers to find the nearest location.
+
+### Multi Language
+
+![Multi language](public/features/multiLanguage.png)
+
+ALOPE Taste House is an Indonesian restaurant offering western cuisine. Therefore, our customers come from both domestic and international locations, making the website global and accessible to everyone, not just locals.
+
+|NOTE| The language switch feature is located in the footer.
+|NOTE| The feature is on progress.
+
+### Booking
+
+![Booking](public/features/booking.png)
+
+The booking feature at ALOPE Taste House allows customers to easily make table reservations online. With a simple and intuitive reservation system, customers can select their preferred time and number of guests, ensuring a more comfortable dining experience. We aim to provide convenience for our customers, whether they are coming from domestic or international locations, so they can enjoy our dishes without having to wait.
+
+### Search
+
+![Search](public/features/search.png)
+
+Search your Favorite Menu
