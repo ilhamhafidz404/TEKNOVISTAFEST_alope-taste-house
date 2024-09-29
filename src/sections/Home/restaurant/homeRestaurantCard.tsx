@@ -35,9 +35,9 @@ export default function RestaurantCard({
               ({restaurant.totalReview} Review)
             </small>
           </div>
-          <h6 className="xl:text-lg font-semibold text-gray-100">
+          <p className="xl:text-lg font-semibold text-gray-100">
             {restaurant.name}
-          </h6>
+          </p>
           <p className="font-medium text-gray-300 mt-3 text-sm xl:text-base">
             {formatToRupiah(restaurant.prices.min)} -{" "}
             {formatToRupiah(restaurant.prices.max)}

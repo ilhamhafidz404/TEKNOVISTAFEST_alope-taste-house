@@ -171,9 +171,9 @@ function LocationMapSection() {
                 height={200}
                 className="object-cover rounded-md mx-auto"
               />
-              <h6 className="font-medium mb-2 text-xl text-gray-200 mt-3">
+              <p className="font-medium mb-2 text-xl text-gray-200 mt-3">
                 {selectedMarker.name}
-              </h6>
+              </p>
               <p className="text-gray-300 w-3/4 mx-auto">
                 {selectedMarker.description}
               </p>

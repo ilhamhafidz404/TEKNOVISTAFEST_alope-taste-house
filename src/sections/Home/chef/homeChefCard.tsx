@@ -26,9 +26,7 @@ function ChefCard({
         <p className="text-gray-400 text-sm font-medium uppercase">
           {chef.specialist}
         </p>
-        <h6 className="text-xl font-semibold mb-2 text-gray-100">
-          {chef.name}
-        </h6>
+        <p className="text-xl font-semibold mb-2 text-gray-100">{chef.name}</p>
         <div className="flex items-center gap-2 text-gray-300">
           <MapIcon myClass="size-4 text-gray-700" />
           <p>{chef.location}</p>

@@ -60,9 +60,9 @@ export default function TopRestaurant({ lang }: { lang: string }) {
                 <p className="text-yellow-400 font-semibold">5</p>
                 <small className="text-gray-400">(10 Review)</small>
               </div>
-              <h6 className="text-lg font-semibold text-gray-100">
+              <p className="text-lg font-semibold text-gray-100">
                 ALOPE Garden Bistro
-              </h6>
+              </p>
               <p className="font-medium text-gray-300 mt-3">
                 Rp 10.000 - Rp 20.000
               </p>
@@ -99,9 +99,9 @@ export default function TopRestaurant({ lang }: { lang: string }) {
                 <p className="text-yellow-400 font-semibold">5</p>
                 <small className="text-gray-400">(10 Review)</small>
               </div>
-              <h6 className="text-lg font-semibold text-gray-100">
+              <p className="text-lg font-semibold text-gray-100">
                 ALOPE Fiesta
-              </h6>
+              </p>
               <p className="font-medium text-gray-300 mt-3">
                 Rp 10.000 - Rp 20.000
               </p>
@@ -138,9 +138,9 @@ export default function TopRestaurant({ lang }: { lang: string }) {
                 <p className="text-yellow-400 font-semibold">5</p>
                 <small className="text-gray-400">(10 Review)</small>
               </div>
-              <h6 className="text-lg font-semibold text-gray-100">
+              <p className="text-lg font-semibold text-gray-100">
                 ALOPE Grill & Smokehouse Serpong
-              </h6>
+              </p>
               <p className="font-medium text-gray-300 mt-3">
                 Rp 10.000 - Rp 20.000
               </p>

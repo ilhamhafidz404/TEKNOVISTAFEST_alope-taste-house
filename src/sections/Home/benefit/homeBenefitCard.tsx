@@ -16,7 +16,7 @@ export default function BenefitCard({
       <span className="bg-[#bc8b57]  w-[60px] h-[60px] rounded-full inline-flex justify-center items-center">
         {icon}
       </span>
-      <h5 className="mt-5 font-bold text-xl text-gray-100">{title}</h5>
+      <p className="mt-5 font-bold text-xl text-gray-100">{title}</p>
       <p className="text-sm mt-1 text-gray-300">{description}</p>
       <Link
         to="/"

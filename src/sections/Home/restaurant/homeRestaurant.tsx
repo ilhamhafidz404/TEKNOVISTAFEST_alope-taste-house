@@ -43,6 +43,7 @@ export default function Restaurant({ lang }: { lang: string }) {
             </label>
             <select
               id="citiesSelection"
+              name="citiesSelection"
               className="bg-transparent text-gray-100"
               onChange={(e) => {
                 setFilterLocation(e.target.value);

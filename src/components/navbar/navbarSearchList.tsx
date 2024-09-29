@@ -24,7 +24,7 @@ export default function NavbarSearchList({
         />
       </div>
       <div className="w-1/2">
-        <h5 className="font-semibold">{name}</h5>
+        <p className="font-semibold">{name}</p>
         <p className="text-gray-500 text-sm">{description}</p>
       </div>
     </NavLink>
