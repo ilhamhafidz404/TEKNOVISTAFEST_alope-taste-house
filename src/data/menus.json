@@ -1,27 +1,27 @@
 [
   {
     "name": "Burger",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "description": "A delicious and hearty burger loaded with fresh lettuce, juicy tomato, and a succulent meat patty. Topped with creamy avocado, this burger offers a perfect balance of flavors and textures.",
     "image": "/menu/burger.jpg"
   },
   {
     "name": "Pizza",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "description": "A classic pizza topped with a generous amount of melted cheese, savory chicken, and vibrant bell peppers. Finished with fresh herbs, this pizza is the ultimate comfort food.",
     "image": "/menu/pizza.jpg"
   },
   {
     "name": "Hotdog",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "description": "A perfectly grilled hotdog nestled in a soft bun, loaded with savory sausage and topped with fresh vegetables. It's the ultimate street food treat that’s both satisfying and flavorful.",
     "image": "/menu/hotdog.jpg"
   },
   {
     "name": "BBQ",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "description": "Juicy, smoky BBQ skewers grilled to perfection, offering tender meat with a deep smoky flavor. Perfect for outdoor gatherings or a hearty meal with friends.",
     "image": "/menu/bbq.jpg"
   },
   {
     "name": "Beef",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cumque, error ipsum sed id delectus?",
+    "description": "Tender, juicy beef cooked to perfection, offering rich, savory flavors with a hint of smokiness. This beef dish is a must-try for meat lovers, delivering a melt-in-your-mouth experience.",
     "image": "/menu/beef.jpg"
   }
 ]

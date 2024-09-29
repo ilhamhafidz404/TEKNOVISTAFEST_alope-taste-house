@@ -1,0 +1,83 @@
+{
+  "burger": [
+    {
+      "name": "Balado Chicken Burger",
+      "description": "A crispy chicken burger topped with spicy Balado sauce, a traditional Indonesian chili paste.",
+      "price": 20000
+    },
+    {
+      "name": "Sausage Rissole",
+      "description": "Crispy rissole filled with sausage, wrapped in a thin crust and fried to golden perfection.",
+      "price": 25000
+    },
+    {
+      "name": "Fried Chicken Wings with Green Chili Sauce",
+      "description": "Perfectly fried chicken wings served with traditional Padang green chili sauce.",
+      "price": 30000
+    },
+    {
+      "name": "Fruit Salad with Cheese and Mayonnaise",
+      "description": "A mix of fresh fruits topped with grated cheese and sweet mayonnaise.",
+      "price": 15000
+    },
+    {
+      "name": "Fried Sausage with Melted Cheese",
+      "description": "Fried sausages paired with melted cheese for a delightful treat.",
+      "price": 23000
+    }
+  ],
+  "pizza": [
+    {
+      "name": "Margherita Pizza",
+      "description": "Classic pizza topped with fresh mozzarella, basil, and tomato sauce.",
+      "price": 50000
+    },
+    {
+      "name": "Pepperoni Pizza",
+      "description": "Pizza topped with generous slices of spicy pepperoni and melted mozzarella.",
+      "price": 60000
+    },
+    {
+      "name": "BBQ Chicken Pizza",
+      "description": "Grilled chicken pieces, BBQ sauce, and onions, all topped with melted cheese.",
+      "price": 70000
+    },
+    {
+      "name": "Vegetarian Pizza",
+      "description": "Loaded with fresh vegetables, including bell peppers, onions, mushrooms, and olives.",
+      "price": 55000
+    },
+    {
+      "name": "Cheese Lovers Pizza",
+      "description": "A cheesy delight with a blend of mozzarella, cheddar, and parmesan.",
+      "price": 65000
+    }
+  ],
+  "sandwitch": [
+    {
+      "name": "Club Sandwich",
+      "description": "A triple-decker sandwich with turkey, bacon, lettuce, tomato, and mayonnaise.",
+      "price": 45000
+    },
+    {
+      "name": "Grilled Chicken Sandwich",
+      "description": "Juicy grilled chicken breast, lettuce, tomato, and mayo served on toasted bread.",
+      "price": 50000
+    },
+    {
+      "name": "Tuna Melt Sandwich",
+      "description": "Tuna salad topped with melted cheese and served on a grilled sandwich.",
+      "price": 55000
+    },
+    {
+      "name": "Egg and Cheese Sandwich",
+      "description": "Scrambled eggs with melted cheese served in a toasted sandwich.",
+      "price": 30000
+    },
+    {
+      "name": "BLT Sandwich",
+      "description": "Crispy bacon, fresh lettuce, and tomatoes with mayonnaise on toasted bread.",
+      "price": 40000
+    }
+  ]
+}

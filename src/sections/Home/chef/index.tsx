@@ -37,7 +37,7 @@ export default function Chef() {
       </div>
       <div>
         <Subtitle text="TOP 4 EXPERT CHEF" />
-        <Title text="Expert Chef with Fuddy" />
+        <Title text="Expert Chef with Us" />
         <div className="mt-10">
           {chefs.slice(0, 4).map((chef, index) => (
             <div

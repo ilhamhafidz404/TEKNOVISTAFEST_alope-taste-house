@@ -13,10 +13,8 @@ export default function Footer() {
             <span className="text-gray-100">ALOPE Taste House</span>
           </p>
           <p className="mt-2 text-gray-300">
-            Welcome to ALOPE Taste House, where passion for great food meets a
-            warm and inviting atmosphere. Our journey began with a simple goal:
-            to offer delicious, freshly prepared meals made from the finest
-            ingredients.
+            Welcome to ALOPE Taste House, where passion for delicious food meets
+            a warm and inviting atmosphere.
           </p>
         </div>
         <div className="flex gap-28">

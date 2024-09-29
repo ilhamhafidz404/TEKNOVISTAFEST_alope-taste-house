@@ -21,15 +21,14 @@ export default function Header() {
   return (
     <div className="lg:flex justify-between items-center px-5 md:px-10 xl:px-20 bg-[url('/banner.png')] h-[800px] xl:h-[700px] bg-cover text-center md:text-left">
       <div className="lg:w-[700px] lg:pt-0 pt-44">
-        <Subtitle text="lorem ipsum sit" />
+        <Subtitle text="ALOPE Taste House" />
         <h1 className="text-3xl md:text-5xl xl:text-7xl text-white font-bold">
           Our Restaurant
         </h1>
-        <p className="text-gray-300 mt-10 text-xs md:text-sm xl:text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam
-          mollitia quam vero dolor eos. Nam ex at perferendis voluptatibus
-          incidunt facilis pariatur dolor officiis eum rem, maxime voluptatum
-          ad.
+        <p className="text-gray-300 mt-5 text-xs md:text-sm xl:text-base">
+          Our place presents a unique blend of flavors from around the world.
+          Our restaurant prides itself on serving delicious, high-quality food
+          made from fresh ingredients.
         </p>
       </div>
       <div className="xl:pr-28">

@@ -1,4 +1,6 @@
-export default function TestimoniCard() {
+import { TestimoniProps } from "../../../models/GlobalProps";
+
+export default function TestimoniCard(testimoni: TestimoniProps) {
   return (
     <div className="h-[400px] bg-[#191f25] rounded-lg relative mb-7">
       <div className="py-10 md:py-20 px-5 md:px-10 ">
@@ -6,14 +8,10 @@ export default function TestimoniCard() {
           "
         </p>
         <p className="text-gray-300 md:-mt-12 xl:-mt-20 md:w-3/4 text-sm md:text-sm xl:text-base">
-          My appetites were satisfied by your kale chips and crackers without
-          making me compromise my diet. I was also quite happy to see that these
-          things were being produced locally. I was happy to learn that my food
-          was produced by a "neighbor" in Bridgeport, Pennsylvania because I
-          live nearby.
+          {testimoni.text}
         </p>
         <p className="text-xl xl:text-3xl mt-5 text-gray-200 font-semibold">
-          Ilham Hafidz
+          {testimoni.name}
         </p>
       </div>
       <div className="absolute top-0 right-0 bottom-0 md:block hidden">

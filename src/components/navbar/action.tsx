@@ -9,7 +9,7 @@ export default function NavbarAction() {
         to={"/reservation"}
         className="px-5 py-3 rounded-md text-white  border-2 border-[#bc8b57]/80 bg-[#bc8b57]/80 hover:bg-[#bc8b57] hover:text-white font-medium"
       >
-        Reservasi
+        Reservation
       </Link>
     </div>
   );

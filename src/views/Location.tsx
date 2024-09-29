@@ -60,7 +60,10 @@ export default function LocationView() {
             <LocationMapSection />
           </div>
         ) : (
-          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-3 xl:gap-5 mt-20">
+          <div
+            id="map"
+            className="grid md:grid-cols-2 xl:grid-cols-3 gap-3 xl:gap-5 mt-20 scroll-m-44"
+          >
             {restaurants.map((restaurant, index) => (
               <RestaurantCard key={index} restaurant={restaurant} />
             ))}

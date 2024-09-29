@@ -22,7 +22,7 @@ export default function MenuListItem({
       </div>
       <div>
         <p className="text-sm sm:text-base md:text-2xl xl:text-3xl font-medium md:font-bold whitespace-nowrap text-gray-200">
-          Rp {price}
+          {price}
         </p>
       </div>
     </div>

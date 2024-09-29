@@ -1,27 +1,32 @@
 import MenuCard from "./card";
 
+import menuWithCategories from "./../../../data/menuWithCategories.json";
+
 export default function MenuCategory() {
   return (
     <>
       <MenuCard
-        title="Breakfast Menu"
+        title="Pizza Menu"
         img="/menu/pizza.jpg"
-        id="breakfast"
+        id="pizza"
         index={1}
+        menus={menuWithCategories.pizza}
       />
       <div className="bg-[#191f25] py-16 mt-20">
         <MenuCard
-          title="Lunch Menu"
+          title="Burger Menu"
           img="/menu/burger.jpg"
-          id="lunch"
+          id="burger"
           index={2}
+          menus={menuWithCategories.burger}
         />
       </div>
       <MenuCard
-        title="Dinner Menu"
+        title="Sandwitch Menu"
         img="/menu/hotdog.jpg"
-        id="dinner"
+        id="sandwitch"
         index={3}
+        menus={menuWithCategories.sandwitch}
       />
     </>
   );

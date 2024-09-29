@@ -11,7 +11,7 @@ export default function MenuCard({ menu }: { menu: Menu }) {
         height={"auto"}
       />
       <h5 className="text-2xl font-semibold text-gray-100 mt-5">{menu.name}</h5>
-      <p className="text-gray-300">{menu.description}</p>
+      <p className="text-gray-300 text-sm mt-3">{menu.description}</p>
     </div>
   );
 }

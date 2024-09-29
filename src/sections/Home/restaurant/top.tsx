@@ -8,15 +8,15 @@ export default function TopRestaurant() {
   const [hoveredRestaurant, setHoveredRestaurant] = useState(1);
 
   return (
-    <div className="hidden md:grid lg:grid-cols-3 mb-20 items-center">
+    <div className="hidden md:grid lg:grid-cols-3 mb-20 items-center gap-5">
       <div className="w-full">
         <Subtitle text="Top 3 Featured Restaurant" />
         <Title text="Most Popular Restaurants" />
         <p className="text-gray-300 text-sm mt-5 mb-5">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat quae
-          tempore eaque maxime repellat. Laboriosam, non sit facilis, ut ipsum
-          cum, quas illo repudiandae minima alias aspernatur delectus architecto
-          consectetur.
+          Experience the best culinary delights in three superior restaurants
+          with dishes that are exceptional in taste and presentation, from
+          authentic local to mouth-watering international cuisine, complete with
+          a comfortable atmosphere and unforgettable service.
         </p>
         <Button text="View All Restaurant" to="/location" />
       </div>

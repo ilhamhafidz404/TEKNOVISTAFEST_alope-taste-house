@@ -1,4 +1,6 @@
 import { Subtitle, Title } from "../../../components/text";
+import { MenuCategoryProps } from "../../../models/GlobalProps";
+import formatToRupiah from "../../../tools/formatRupiah";
 import MenuListItem from "./item";
 
 export default function MenuCard({
@@ -6,11 +8,13 @@ export default function MenuCard({
   img,
   id,
   index,
+  menus,
 }: {
   title: string;
   img: string;
   id: string;
   index: number;
+  menus: MenuCategoryProps[];
 }) {
   return (
     <section
@@ -44,31 +48,13 @@ export default function MenuCard({
               : "xl:pr-20 md:px-10 md:pt-10 sm:px-5 sm:pt-5 px-3 pt-3"
           }`}
         >
-          <MenuListItem
-            name="Spinach Artichoke Dip"
-            description="Tastes great with tortilla chips, pita bread, or crackers."
-            price="20.000"
-          />
-          <MenuListItem
-            name="Pigs In a Blanket"
-            description="Hot dogs, crescent rolls, and American cheese"
-            price="120.000"
-          />
-          <MenuListItem
-            name="Crockpot Buffalo Chicken Wings"
-            description="Juicy tender chicken fried to perfection"
-            price="30.000"
-          />
-          <MenuListItem
-            name="Cream Cheese Fruit Dip"
-            description="Food Tray with cream cheese"
-            price="70.000"
-          />
-          <MenuListItem
-            name="Cowboy Crack Dip"
-            description="Flavoured cheesy sausage dip"
-            price="80.000"
-          />
+          {menus.map((menu) => (
+            <MenuListItem
+              name={menu.name}
+              description={menu.description}
+              price={formatToRupiah(menu.price)}
+            />
+          ))}
         </div>
         {index % 2 != 0 && (
           <div className="xl:col-span-2">

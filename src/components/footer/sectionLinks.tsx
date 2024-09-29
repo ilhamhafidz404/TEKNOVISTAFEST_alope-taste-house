@@ -48,16 +48,16 @@ export default function FooterSections() {
           sectionID: "#",
         },
         {
-          placeholder: "Breakfast Menu",
-          sectionID: "#breakfast",
+          placeholder: "Pizza Menu",
+          sectionID: "#pizza",
         },
         {
-          placeholder: "Lunch Menu",
-          sectionID: "#lunch",
+          placeholder: "Burger Menu",
+          sectionID: "#burger",
         },
         {
-          placeholder: "Dinner Menu",
-          sectionID: "#dinner",
+          placeholder: "Sandwitch Menu",
+          sectionID: "#sandwitch",
         },
       ],
       "/chef": [
