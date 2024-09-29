@@ -58,3 +58,12 @@
 #map .gm-style-iw-chr button span {
   background-color: white !important;
 }
+
+@media only screen and (max-width: 500px) {
+  .glider.draggable.drag {
+    scroll-snap-type: x mandatory;
+  }
+  .glider.draggable.drag .glider-slide {
+    scroll-snap-align: center;
+  }
+}
