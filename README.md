@@ -75,3 +75,7 @@ The booking feature at ALOPE Taste House allows customers to easily make table r
 ![Search](public/features/search.png)
 
 Search your Favorite Menu
+
+## Lighthouse Statistic
+
+![Lighthouse Stats](public/features/lighthouseStats.png)
