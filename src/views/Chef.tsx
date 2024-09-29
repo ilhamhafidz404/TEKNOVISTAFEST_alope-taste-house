@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 
 // global components
 import { Subtitle, Title } from "../components/text/text";
@@ -16,20 +17,30 @@ export default function ChefView() {
     window.scrollTo(0, 0);
   }, []);
 
+  const [searchParams] = useSearchParams();
+  const lang = searchParams.get("lang") || "en";
+
   return (
     <>
       <Header
-        title="Our Chefs"
-        description="Our chef is a culinary expert with a passion for creating memorable
-          dining experiences. With years of experience in the kitchen, they
-          combine traditional techniques with modern flavors to craft dishes
-          that delight the senses."
+        title={lang == "en" ? "Our Chefs" : "Koki Kami"}
+        description={
+          lang == "en"
+            ? "Our chef is a culinary expert with a passion for creating memorable dining experiences. With years of experience in the kitchen, they combine traditional techniques with modern flavors to craft dishes that delight the senses."
+            : "Koki kami adalah ahli kuliner dengan hasrat untuk menciptakan sesuatu yang berkesan pengalaman bersantap. Dengan pengalaman bertahun-tahun di dapur, mereka menggabungkan teknik tradisional dengan cita rasa modern untuk membuat hidangan yang menyenangkan indera."
+        }
         img={["/header/chef1.png", "/header/chef2.png"]}
         currentImg="/header/chef1.png"
       />
       <div className="text-center mt-20">
-        <Subtitle text="Our Menu" />
-        <Title text={"Professional Chef"} />
+        <Subtitle text={lang == "en" ? "Our Chef" : "Koki Kami"} />
+        <Title
+          text={
+            lang == "en"
+              ? "Professional Chef We Have"
+              : "Koki Professional yang Kami Miliki"
+          }
+        />
       </div>
       <div
         id="chef"
@@ -50,7 +61,7 @@ export default function ChefView() {
       <br />
       <br />
 
-      <ChefMotto />
+      <ChefMotto lang={lang} />
     </>
   );
 }

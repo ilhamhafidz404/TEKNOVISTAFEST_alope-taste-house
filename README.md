@@ -38,6 +38,14 @@ npm run dev
 
 Open the project in your browser by visiting the port provided after completing step 3. (The port may vary, but the default is http://localhost:5173/)
 
+### Step 5 (Optional For unlock Google Map Feature)
+
+1. Rename the .env.example file to .env
+2. Replace keyword "YOUR_GMAP_API_KEY" using your Google Map API Key
+3. For more information, to get the Google Map API Key in [here](https://developers.google.com/maps/documentation/javascript/get-api-key)
+
+Don't have a Google Maps API key but want to see all the features? Check it out [here](https://teknovistafest-alope-taste-house.vercel.app/)
+
 ## Website Features
 
 ### Location Map
@@ -53,6 +61,7 @@ The branches of ALOPE Taste House can be viewed on a map, making it easier for c
 ALOPE Taste House is an Indonesian restaurant offering western cuisine. Therefore, our customers come from both domestic and international locations, making the website global and accessible to everyone, not just locals.
 
 |NOTE| The language switch feature is located in the footer.
+<br>
 |NOTE| The feature is on progress.
 
 ### Booking

@@ -19,14 +19,20 @@ export default function ReservationView() {
 
   return (
     <>
-      <HeaderReservationSection />
+      <HeaderReservationSection lang={lang} />
 
       <main className="px-5 md:px-10 xl:px-20 mt-96 md:mt-48">
         <Benefit lang={lang} />
 
         <div id="testimonials" className="text-center mt-20 mb-10 scroll-m-20">
-          <Subtitle text="Testimonials" />
-          <Title text={"We’re In Our Customer’s Good Books"} />
+          <Subtitle text={lang == "en" ? "Testimonials" : "Testimoni"} />
+          <Title
+            text={
+              lang == "en"
+                ? "We’re In Our Customer’s Good Books"
+                : "Kami Berada dalam Review Bagus Pelanggan Kami"
+            }
+          />
         </div>
         <LocationTestimoniSection />
       </main>

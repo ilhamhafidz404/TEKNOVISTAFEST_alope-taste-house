@@ -7,8 +7,12 @@ import testimonials from "../../../data/testimonials.json";
 export default function LocationTestimoniSection() {
   return (
     <GliderComponent draggable hasDots slidesToShow={1} slidesToScroll={1}>
-      {testimonials.map((testimonial) => (
-        <TestimoniCard name={testimonial.name} text={testimonial.text} />
+      {testimonials.map((testimonial, index) => (
+        <TestimoniCard
+          key={index}
+          name={testimonial.name}
+          text={testimonial.text}
+        />
       ))}
     </GliderComponent>
   );

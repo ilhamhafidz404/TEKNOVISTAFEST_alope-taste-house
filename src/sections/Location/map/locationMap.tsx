@@ -113,7 +113,7 @@ const darkModeStyle = [
 function LocationMapSection() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyBKDtW47ZKzT5JPduQvi3gUFNHNZmXk-FU",
+    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY,
   });
 
   const [selectedMarker, setSelectedMarker] = useState<Restaurant | null>(null);

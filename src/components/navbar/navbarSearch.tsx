@@ -4,7 +4,7 @@ import SearchIcon from "../icons/search";
 import NavbarSearchList from "./navbarSearchList";
 import CloseIcon from "../icons/close";
 
-export default function NavbarSearch() {
+export default function NavbarSearch({ lang }: { lang: string }) {
   const [search, setSearch] = useState<string>("");
   return (
     <>
@@ -12,7 +12,11 @@ export default function NavbarSearch() {
         <input
           type="text"
           className="bg-white py-3 px-5 shadow-sm rounded-md w-full text-gray-800"
-          placeholder="       Search your favorite food"
+          placeholder={
+            lang == "en"
+              ? "       Search your favorite food"
+              : "       Cari Makanan Favoritmu"
+          }
           onChange={(e) => setSearch(e.target.value)}
           value={search}
         />

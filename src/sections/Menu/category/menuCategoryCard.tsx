@@ -1,7 +1,7 @@
 import { Subtitle, Title } from "../../../components/text/text";
 import { MenuCategoryProps } from "../../../models/GlobalProps";
 import formatToRupiah from "../../../tools/formatRupiah";
-import MenuListItem from "./locationCategoryItem";
+import MenuListItem from "./menuCategoryItem";
 
 export default function MenuCard({
   title,
@@ -9,12 +9,14 @@ export default function MenuCard({
   id,
   index,
   menus,
+  lang,
 }: {
   title: string;
   img: string;
   id: string;
   index: number;
   menus: MenuCategoryProps[];
+  lang: string;
 }) {
   return (
     <section
@@ -22,7 +24,7 @@ export default function MenuCard({
       className={`px-5 md:px-10 xl:px-20 scroll-mt-20 ${index != 2 && "mt-28"}`}
     >
       <div className="text-center">
-        <Subtitle text="Our Menu" />
+        <Subtitle text={lang == "en" ? "Our Menu" : "Menu Kami"} />
         <Title text={title} />
       </div>
       <div
@@ -48,8 +50,9 @@ export default function MenuCard({
               : "xl:pr-20 md:px-10 md:pt-10 sm:px-5 sm:pt-5 px-3 pt-3"
           }`}
         >
-          {menus.map((menu) => (
+          {menus.map((menu, index) => (
             <MenuListItem
+              key={index}
               name={menu.name}
               description={menu.description}
               price={formatToRupiah(menu.price)}

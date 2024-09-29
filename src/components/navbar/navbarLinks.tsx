@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export default function NavbarLinks() {
+export default function NavbarLinks({ lang }: { lang: string }) {
   const baseClass =
     "after:content-[''] after:bottom-0 after:h-[5px] after:bg-[#bc8b57] after:absolute after:rounded-full relative pb-2";
 
@@ -22,7 +22,7 @@ export default function NavbarLinks() {
               }`
             }
           >
-            Home
+            {lang == "en" ? "Home" : "Beranda"}
           </NavLink>
         </li>
         <li>
@@ -34,7 +34,7 @@ export default function NavbarLinks() {
               }`
             }
           >
-            Location
+            {lang == "en" ? "Location" : "Lokasi"}
           </NavLink>
         </li>
         <li>
@@ -58,7 +58,7 @@ export default function NavbarLinks() {
               }`
             }
           >
-            Chef
+            {lang == "en" ? "Chef" : "Koki"}
           </NavLink>
         </li>
       </ul>

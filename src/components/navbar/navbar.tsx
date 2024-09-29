@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
+
+//
 import StoreIcon from "../icons/store";
 import NavbarAction from "./navbarAction";
 import NavbarLinks from "./navbarLinks";
@@ -16,10 +19,13 @@ export default function Navbar() {
     });
   }, []);
 
+  const [searchParams] = useSearchParams();
+  const lang = searchParams.get("lang") || "en";
+
   return (
     <>
       <nav className="transition duration-500 py-7 px-5 md:px-10 xl:px-20 grid grid-cols-2 xl:grid-cols-3 items-center fixed top-0 left-0 right-0 text-gray-200 z-50">
-        <NavbarLinks />
+        <NavbarLinks lang={lang} />
         <div>
           <p className="text-sm sm:text-xl font-semibold flex xl:justify-center items-center gap-2 md:gap-3 whitespace-nowrap">
             <StoreIcon myClass={"size-5 sm:size-6 text-[#bc8b57]"} />
@@ -30,6 +36,7 @@ export default function Navbar() {
           toggleNavScreen={() => {
             setShowFullScreenNav(!showFullScreenNav);
           }}
+          lang={lang}
         />
         <div className="flex md:hidden justify-end">
           <button
